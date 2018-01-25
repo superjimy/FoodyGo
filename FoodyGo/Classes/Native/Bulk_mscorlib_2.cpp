@@ -49371,10 +49371,25 @@ extern "C"  double Math_Cos_m43596019 (RuntimeObject * __this /* static, unused 
 {
 	return cos(___d0);
 }
+// System.Double System.Math::Tan(System.Double)
+extern "C"  double Math_Tan_m2337827751 (RuntimeObject * __this /* static, unused */, double ___a0, const RuntimeMethod* method)
+{
+	return tan(___a0);
+}
+// System.Double System.Math::Acos(System.Double)
+extern "C"  double Math_Acos_m2218287828 (RuntimeObject * __this /* static, unused */, double ___d0, const RuntimeMethod* method)
+{
+	return acos(___d0);
+}
 // System.Double System.Math::Atan(System.Double)
 extern "C"  double Math_Atan_m2820982624 (RuntimeObject * __this /* static, unused */, double ___d0, const RuntimeMethod* method)
 {
 	return atan(___d0);
+}
+// System.Double System.Math::Atan2(System.Double,System.Double)
+extern "C"  double Math_Atan2_m792822848 (RuntimeObject * __this /* static, unused */, double ___y0, double ___x1, const RuntimeMethod* method)
+{
+	return atan2(___y0, ___x1);
 }
 // System.Double System.Math::Exp(System.Double)
 extern "C"  double Math_Exp_m3283777797 (RuntimeObject * __this /* static, unused */, double ___d0, const RuntimeMethod* method)

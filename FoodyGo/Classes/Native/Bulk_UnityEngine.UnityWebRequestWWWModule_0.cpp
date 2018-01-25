@@ -116,8 +116,8 @@ struct UnityWebRequest_t254341728_marshaled_com;
 struct ByteU5BU5D_t3397334013;
 
 
-#ifndef U3CMODULEU3E_T3783534232_H
-#define U3CMODULEU3E_T3783534232_H
+#ifndef U3CMODULEU3E_T3783534234_H
+#define U3CMODULEU3E_T3783534234_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -125,7 +125,7 @@ struct ByteU5BU5D_t3397334013;
 #endif
 
 // <Module>
-struct  U3CModuleU3E_t3783534232 
+struct  U3CModuleU3E_t3783534234 
 {
 public:
 
@@ -135,7 +135,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // U3CMODULEU3E_T3783534232_H
+#endif // U3CMODULEU3E_T3783534234_H
 #ifndef RUNTIMEOBJECT_H
 #define RUNTIMEOBJECT_H
 #ifdef __clang__

@@ -64,8 +64,8 @@ struct ByteU5BU5D_t3397334013;
 #pragma clang diagnostic pop
 #endif
 #endif // RUNTIMEOBJECT_H
-#ifndef U3CMODULEU3E_T3783534231_H
-#define U3CMODULEU3E_T3783534231_H
+#ifndef U3CMODULEU3E_T3783534233_H
+#define U3CMODULEU3E_T3783534233_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -73,7 +73,7 @@ struct ByteU5BU5D_t3397334013;
 #endif
 
 // <Module>
-struct  U3CModuleU3E_t3783534231 
+struct  U3CModuleU3E_t3783534233 
 {
 public:
 
@@ -83,7 +83,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // U3CMODULEU3E_T3783534231_H
+#endif // U3CMODULEU3E_T3783534233_H
 #ifndef UNITYWEBREQUESTTEXTURE_T1538657537_H
 #define UNITYWEBREQUESTTEXTURE_T1538657537_H
 #ifdef __clang__
