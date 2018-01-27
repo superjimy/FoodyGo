@@ -172,14 +172,14 @@ struct SelectionBaseAttribute_t936505999;
 struct TooltipAttribute_t4278647215;
 // UnityEngine.TextAreaAttribute
 struct TextAreaAttribute_t2454598508;
+// UnityEngine.HideInInspector
+struct HideInInspector_t2503583610;
 // CUDLR.CommandAttribute
 struct CommandAttribute_t3787907257;
 // CUDLR.RouteAttribute
 struct RouteAttribute_t3177687375;
 // UnityEngine.HeaderAttribute
 struct HeaderAttribute_t3969069619;
-// UnityEngine.HideInInspector
-struct HideInInspector_t2503583610;
 // System.Char[]
 struct CharU5BU5D_t1328083999;
 // CUDLR.CommandAttribute/Callback
@@ -1211,6 +1211,26 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // SELECTIONBASEATTRIBUTE_T936505999_H
+#ifndef HIDEININSPECTOR_T2503583610_H
+#define HIDEININSPECTOR_T2503583610_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.HideInInspector
+struct  HideInInspector_t2503583610  : public Attribute_t542643598
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // HIDEININSPECTOR_T2503583610_H
 #ifndef COMMANDATTRIBUTE_T3787907257_H
 #define COMMANDATTRIBUTE_T3787907257_H
 #ifdef __clang__
@@ -1335,26 +1355,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // ROUTEATTRIBUTE_T3177687375_H
-#ifndef HIDEININSPECTOR_T2503583610_H
-#define HIDEININSPECTOR_T2503583610_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.HideInInspector
-struct  HideInInspector_t2503583610  : public Attribute_t542643598
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // HIDEININSPECTOR_T2503583610_H
 #ifndef ENUM_T2459695545_H
 #define ENUM_T2459695545_H
 #ifdef __clang__
@@ -3493,35 +3493,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // UNMANAGEDFUNCTIONPOINTERATTRIBUTE_T1696564987_H
-#ifndef DEFAULTDEPENDENCYATTRIBUTE_T3858269114_H
-#define DEFAULTDEPENDENCYATTRIBUTE_T3858269114_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Runtime.CompilerServices.DefaultDependencyAttribute
-struct  DefaultDependencyAttribute_t3858269114  : public Attribute_t542643598
-{
-public:
-	// System.Runtime.CompilerServices.LoadHint System.Runtime.CompilerServices.DefaultDependencyAttribute::hint
-	int32_t ___hint_0;
-
-public:
-	inline static int32_t get_offset_of_hint_0() { return static_cast<int32_t>(offsetof(DefaultDependencyAttribute_t3858269114, ___hint_0)); }
-	inline int32_t get_hint_0() const { return ___hint_0; }
-	inline int32_t* get_address_of_hint_0() { return &___hint_0; }
-	inline void set_hint_0(int32_t value)
-	{
-		___hint_0 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // DEFAULTDEPENDENCYATTRIBUTE_T3858269114_H
 #ifndef DEBUGGABLEATTRIBUTE_T994551506_H
 #define DEBUGGABLEATTRIBUTE_T994551506_H
 #ifdef __clang__
@@ -3571,6 +3542,35 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // DEBUGGABLEATTRIBUTE_T994551506_H
+#ifndef DEFAULTDEPENDENCYATTRIBUTE_T3858269114_H
+#define DEFAULTDEPENDENCYATTRIBUTE_T3858269114_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Runtime.CompilerServices.DefaultDependencyAttribute
+struct  DefaultDependencyAttribute_t3858269114  : public Attribute_t542643598
+{
+public:
+	// System.Runtime.CompilerServices.LoadHint System.Runtime.CompilerServices.DefaultDependencyAttribute::hint
+	int32_t ___hint_0;
+
+public:
+	inline static int32_t get_offset_of_hint_0() { return static_cast<int32_t>(offsetof(DefaultDependencyAttribute_t3858269114, ___hint_0)); }
+	inline int32_t get_hint_0() const { return ___hint_0; }
+	inline int32_t* get_address_of_hint_0() { return &___hint_0; }
+	inline void set_hint_0(int32_t value)
+	{
+		___hint_0 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // DEFAULTDEPENDENCYATTRIBUTE_T3858269114_H
 #ifndef ATTRIBUTEUSAGEATTRIBUTE_T1057435127_H
 #define ATTRIBUTEUSAGEATTRIBUTE_T1057435127_H
 #ifdef __clang__
@@ -3828,14 +3828,14 @@ extern "C"  void SelectionBaseAttribute__ctor_m381356211 (SelectionBaseAttribute
 extern "C"  void TooltipAttribute__ctor_m1219806761 (TooltipAttribute_t4278647215 * __this, String_t* p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.TextAreaAttribute::.ctor(System.Int32,System.Int32)
 extern "C"  void TextAreaAttribute__ctor_m2180114682 (TextAreaAttribute_t2454598508 * __this, int32_t p0, int32_t p1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.HideInInspector::.ctor()
+extern "C"  void HideInInspector__ctor_m4246517856 (HideInInspector_t2503583610 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void CUDLR.CommandAttribute::.ctor(System.String,System.String,System.Boolean)
 extern "C"  void CommandAttribute__ctor_m4266761113 (CommandAttribute_t3787907257 * __this, String_t* ___cmd0, String_t* ___help1, bool ___runOnMainThread2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void CUDLR.RouteAttribute::.ctor(System.String,System.String,System.Boolean)
 extern "C"  void RouteAttribute__ctor_m284668859 (RouteAttribute_t3177687375 * __this, String_t* ___route0, String_t* ___methods1, bool ___runOnMainThread2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.HeaderAttribute::.ctor(System.String)
 extern "C"  void HeaderAttribute__ctor_m2991758471 (HeaderAttribute_t3969069619 * __this, String_t* p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.HideInInspector::.ctor()
-extern "C"  void HideInInspector__ctor_m4246517856 (HideInInspector_t2503583610 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 static void g_mscorlib_Assembly_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	{
@@ -31671,420 +31671,6 @@ static void U3CPrivateImplementationDetailsU3E_t1486305141_CustomAttributesCache
 		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
 	}
 }
-static void g_AssemblyU2DCSharp_Assembly_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
-{
-	{
-		ExtensionAttribute_t1840441203 * tmp = (ExtensionAttribute_t1840441203 *)cache->attributes[0];
-		ExtensionAttribute__ctor_m1028297080(tmp, NULL);
-	}
-	{
-		DebuggableAttribute_t994551506 * tmp = (DebuggableAttribute_t994551506 *)cache->attributes[1];
-		DebuggableAttribute__ctor_m1065484869(tmp, 258LL, NULL);
-	}
-	{
-		RuntimeCompatibilityAttribute_t2430705542 * tmp = (RuntimeCompatibilityAttribute_t2430705542 *)cache->attributes[2];
-		RuntimeCompatibilityAttribute__ctor_m1331212510(tmp, NULL);
-		RuntimeCompatibilityAttribute_set_WrapNonExceptionThrows_m2174793351(tmp, true, NULL);
-	}
-}
-static void GameObjectCommands_t3502278349_CustomAttributesCacheGenerator_GameObjectCommands_ListGameObjects_m2116427220(CustomAttributesCache* cache)
-{
-	{
-		CommandAttribute_t3787907257 * tmp = (CommandAttribute_t3787907257 *)cache->attributes[0];
-		CommandAttribute__ctor_m4266761113(tmp, il2cpp_codegen_string_new_wrapper("object list"), il2cpp_codegen_string_new_wrapper("lists all the game objects in the scene"), true, NULL);
-	}
-}
-static void GameObjectCommands_t3502278349_CustomAttributesCacheGenerator_GameObjectCommands_PrintGameObject_m3484947886(CustomAttributesCache* cache)
-{
-	{
-		CommandAttribute_t3787907257 * tmp = (CommandAttribute_t3787907257 *)cache->attributes[0];
-		CommandAttribute__ctor_m4266761113(tmp, il2cpp_codegen_string_new_wrapper("object print"), il2cpp_codegen_string_new_wrapper("lists properties of the object"), true, NULL);
-	}
-}
-static void GameObjectRoutes_t2873037207_CustomAttributesCacheGenerator_GameObjectRoutes_ListGameObjects_m1695353300(CustomAttributesCache* cache)
-{
-	{
-		RouteAttribute_t3177687375 * tmp = (RouteAttribute_t3177687375 *)cache->attributes[0];
-		RouteAttribute__ctor_m284668859(tmp, il2cpp_codegen_string_new_wrapper("^/object/list.json$"), il2cpp_codegen_string_new_wrapper("(GET|HEAD)"), true, NULL);
-	}
-}
-static void CommandAttribute_t3787907257_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
-{
-	{
-		AttributeUsageAttribute_t1057435127 * tmp = (AttributeUsageAttribute_t1057435127 *)cache->attributes[0];
-		AttributeUsageAttribute__ctor_m2873156923(tmp, 64LL, NULL);
-	}
-}
-static void RouteAttribute_t3177687375_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
-{
-	{
-		AttributeUsageAttribute_t1057435127 * tmp = (AttributeUsageAttribute_t1057435127 *)cache->attributes[0];
-		AttributeUsageAttribute__ctor_m2873156923(tmp, 64LL, NULL);
-	}
-}
-static void Console_t2866211989_CustomAttributesCacheGenerator_Console_Clear_m854697499(CustomAttributesCache* cache)
-{
-	{
-		CommandAttribute_t3787907257 * tmp = (CommandAttribute_t3787907257 *)cache->attributes[0];
-		CommandAttribute__ctor_m4266761113(tmp, il2cpp_codegen_string_new_wrapper("clear"), il2cpp_codegen_string_new_wrapper("clears console output"), false, NULL);
-	}
-}
-static void Console_t2866211989_CustomAttributesCacheGenerator_Console_Help_m796809583(CustomAttributesCache* cache)
-{
-	{
-		CommandAttribute_t3787907257 * tmp = (CommandAttribute_t3787907257 *)cache->attributes[0];
-		CommandAttribute__ctor_m4266761113(tmp, il2cpp_codegen_string_new_wrapper("help"), il2cpp_codegen_string_new_wrapper("prints commands"), false, NULL);
-	}
-}
-static void Console_t2866211989_CustomAttributesCacheGenerator_Console_Output_m60067589(CustomAttributesCache* cache)
-{
-	{
-		RouteAttribute_t3177687375 * tmp = (RouteAttribute_t3177687375 *)cache->attributes[0];
-		RouteAttribute__ctor_m284668859(tmp, il2cpp_codegen_string_new_wrapper("^/console/out$"), il2cpp_codegen_string_new_wrapper("(GET|HEAD)"), true, NULL);
-	}
-}
-static void Console_t2866211989_CustomAttributesCacheGenerator_Console_Run_m663672359(CustomAttributesCache* cache)
-{
-	{
-		RouteAttribute_t3177687375 * tmp = (RouteAttribute_t3177687375 *)cache->attributes[0];
-		RouteAttribute__ctor_m284668859(tmp, il2cpp_codegen_string_new_wrapper("^/console/run$"), il2cpp_codegen_string_new_wrapper("(GET|HEAD)"), true, NULL);
-	}
-}
-static void Console_t2866211989_CustomAttributesCacheGenerator_Console_History_m950583804(CustomAttributesCache* cache)
-{
-	{
-		RouteAttribute_t3177687375 * tmp = (RouteAttribute_t3177687375 *)cache->attributes[0];
-		RouteAttribute__ctor_m284668859(tmp, il2cpp_codegen_string_new_wrapper("^/console/commandHistory$"), il2cpp_codegen_string_new_wrapper("(GET|HEAD)"), true, NULL);
-	}
-}
-static void Console_t2866211989_CustomAttributesCacheGenerator_Console_Complete_m36330947(CustomAttributesCache* cache)
-{
-	{
-		RouteAttribute_t3177687375 * tmp = (RouteAttribute_t3177687375 *)cache->attributes[0];
-		RouteAttribute__ctor_m284668859(tmp, il2cpp_codegen_string_new_wrapper("^/console/complete$"), il2cpp_codegen_string_new_wrapper("(GET|HEAD)"), true, NULL);
-	}
-}
-static void U3CRegisterAttributesU3Ec__AnonStorey0_t2901168351_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
-{
-	{
-		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[0];
-		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
-	}
-}
-static void ResponseExtension_t3614192300_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
-{
-	{
-		ExtensionAttribute_t1840441203 * tmp = (ExtensionAttribute_t1840441203 *)cache->attributes[0];
-		ExtensionAttribute__ctor_m1028297080(tmp, NULL);
-	}
-}
-static void ResponseExtension_t3614192300_CustomAttributesCacheGenerator_ResponseExtension_WriteString_m3818395102(CustomAttributesCache* cache)
-{
-	{
-		ExtensionAttribute_t1840441203 * tmp = (ExtensionAttribute_t1840441203 *)cache->attributes[0];
-		ExtensionAttribute__ctor_m1028297080(tmp, NULL);
-	}
-}
-static void ResponseExtension_t3614192300_CustomAttributesCacheGenerator_ResponseExtension_WriteBytes_m3582723141(CustomAttributesCache* cache)
-{
-	{
-		ExtensionAttribute_t1840441203 * tmp = (ExtensionAttribute_t1840441203 *)cache->attributes[0];
-		ExtensionAttribute__ctor_m1028297080(tmp, NULL);
-	}
-}
-static void ResponseExtension_t3614192300_CustomAttributesCacheGenerator_ResponseExtension_WriteFile_m586347686(CustomAttributesCache* cache)
-{
-	{
-		ExtensionAttribute_t1840441203 * tmp = (ExtensionAttribute_t1840441203 *)cache->attributes[0];
-		ExtensionAttribute__ctor_m1028297080(tmp, NULL);
-	}
-}
-static void Server_t2567140039_CustomAttributesCacheGenerator_Port(CustomAttributesCache* cache)
-{
-	{
-		SerializeField_t3073427462 * tmp = (SerializeField_t3073427462 *)cache->attributes[0];
-		SerializeField__ctor_m2670658200(tmp, NULL);
-	}
-}
-static void Server_t2567140039_CustomAttributesCacheGenerator_U3CU3Ef__mgU24cache0(CustomAttributesCache* cache)
-{
-	{
-		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[0];
-		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
-	}
-}
-static void Server_t2567140039_CustomAttributesCacheGenerator_U3CU3Ef__mgU24cache1(CustomAttributesCache* cache)
-{
-	{
-		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[0];
-		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
-	}
-}
-static void Server_t2567140039_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache0(CustomAttributesCache* cache)
-{
-	{
-		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[0];
-		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
-	}
-}
-static void Server_t2567140039_CustomAttributesCacheGenerator_U3CU3Ef__mgU24cache2(CustomAttributesCache* cache)
-{
-	{
-		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[0];
-		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
-	}
-}
-static void Server_t2567140039_CustomAttributesCacheGenerator_Server_HandleRequests_m1412659028(CustomAttributesCache* cache)
-{
-	{
-		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
-		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
-	}
-}
-static void Server_t2567140039_CustomAttributesCacheGenerator_Server_U3CRegisterFileHandlersU3Em__0_m978890411(CustomAttributesCache* cache)
-{
-	{
-		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[0];
-		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
-	}
-}
-static void U3CRegisterFileHandlersU3Ec__AnonStorey1_t1818970228_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
-{
-	{
-		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[0];
-		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
-	}
-}
-static void U3CHandleRequestsU3Ec__Iterator0_t381024681_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
-{
-	{
-		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[0];
-		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
-	}
-}
-static void U3CHandleRequestsU3Ec__Iterator0_t381024681_CustomAttributesCacheGenerator_U3CHandleRequestsU3Ec__Iterator0__ctor_m517071840(CustomAttributesCache* cache)
-{
-	{
-		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
-		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
-	}
-}
-static void U3CHandleRequestsU3Ec__Iterator0_t381024681_CustomAttributesCacheGenerator_U3CHandleRequestsU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1182154522(CustomAttributesCache* cache)
-{
-	{
-		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
-		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
-	}
-}
-static void U3CHandleRequestsU3Ec__Iterator0_t381024681_CustomAttributesCacheGenerator_U3CHandleRequestsU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m2401132354(CustomAttributesCache* cache)
-{
-	{
-		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
-		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
-	}
-}
-static void U3CHandleRequestsU3Ec__Iterator0_t381024681_CustomAttributesCacheGenerator_U3CHandleRequestsU3Ec__Iterator0_Dispose_m1792153443(CustomAttributesCache* cache)
-{
-	{
-		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
-		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
-	}
-}
-static void U3CHandleRequestsU3Ec__Iterator0_t381024681_CustomAttributesCacheGenerator_U3CHandleRequestsU3Ec__Iterator0_Reset_m2938468533(CustomAttributesCache* cache)
-{
-	{
-		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
-		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
-	}
-}
-static void GoogleMapTile_t633385143_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
-{
-	{
-		AddComponentMenu_t1099699699 * tmp = (AddComponentMenu_t1099699699 *)cache->attributes[0];
-		AddComponentMenu__ctor_m2024592321(tmp, il2cpp_codegen_string_new_wrapper("Mapping/GoogleMapTile"), NULL);
-	}
-}
-static void GoogleMapTile_t633385143_CustomAttributesCacheGenerator_zoomLevel(CustomAttributesCache* cache)
-{
-	{
-		HeaderAttribute_t3969069619 * tmp = (HeaderAttribute_t3969069619 *)cache->attributes[0];
-		HeaderAttribute__ctor_m2991758471(tmp, il2cpp_codegen_string_new_wrapper("Map Settings"), NULL);
-	}
-	{
-		RangeAttribute_t3336560921 * tmp = (RangeAttribute_t3336560921 *)cache->attributes[1];
-		RangeAttribute__ctor_m3213258921(tmp, 1.0f, 20.0f, NULL);
-	}
-	{
-		TooltipAttribute_t4278647215 * tmp = (TooltipAttribute_t4278647215 *)cache->attributes[2];
-		TooltipAttribute__ctor_m1219806761(tmp, il2cpp_codegen_string_new_wrapper("Zoom Level, 1=global - 20=house"), NULL);
-	}
-}
-static void GoogleMapTile_t633385143_CustomAttributesCacheGenerator_mapType(CustomAttributesCache* cache)
-{
-	{
-		TooltipAttribute_t4278647215 * tmp = (TooltipAttribute_t4278647215 *)cache->attributes[0];
-		TooltipAttribute__ctor_m1219806761(tmp, il2cpp_codegen_string_new_wrapper("Type of map, Road, Satellite, Terrain or Hybrid"), NULL);
-	}
-}
-static void GoogleMapTile_t633385143_CustomAttributesCacheGenerator_size(CustomAttributesCache* cache)
-{
-	{
-		RangeAttribute_t3336560921 * tmp = (RangeAttribute_t3336560921 *)cache->attributes[0];
-		RangeAttribute__ctor_m3213258921(tmp, 64.0f, 1024.0f, NULL);
-	}
-	{
-		TooltipAttribute_t4278647215 * tmp = (TooltipAttribute_t4278647215 *)cache->attributes[1];
-		TooltipAttribute__ctor_m1219806761(tmp, il2cpp_codegen_string_new_wrapper("Size in pixels of the map image"), NULL);
-	}
-}
-static void GoogleMapTile_t633385143_CustomAttributesCacheGenerator_doubleResolution(CustomAttributesCache* cache)
-{
-	{
-		TooltipAttribute_t4278647215 * tmp = (TooltipAttribute_t4278647215 *)cache->attributes[0];
-		TooltipAttribute__ctor_m1219806761(tmp, il2cpp_codegen_string_new_wrapper("Double the pixel resolution of the image returned"), NULL);
-	}
-}
-static void GoogleMapTile_t633385143_CustomAttributesCacheGenerator_TileOffset(CustomAttributesCache* cache)
-{
-	{
-		HeaderAttribute_t3969069619 * tmp = (HeaderAttribute_t3969069619 *)cache->attributes[0];
-		HeaderAttribute__ctor_m2991758471(tmp, il2cpp_codegen_string_new_wrapper("Tile Settings"), NULL);
-	}
-	{
-		TooltipAttribute_t4278647215 * tmp = (TooltipAttribute_t4278647215 *)cache->attributes[1];
-		TooltipAttribute__ctor_m1219806761(tmp, il2cpp_codegen_string_new_wrapper("Sets the tiles position in tile units"), NULL);
-	}
-}
-static void GoogleMapTile_t633385143_CustomAttributesCacheGenerator_tileCenterLocation(CustomAttributesCache* cache)
-{
-	{
-		TooltipAttribute_t4278647215 * tmp = (TooltipAttribute_t4278647215 *)cache->attributes[0];
-		TooltipAttribute__ctor_m1219806761(tmp, il2cpp_codegen_string_new_wrapper("Calculated tile center"), NULL);
-	}
-}
-static void GoogleMapTile_t633385143_CustomAttributesCacheGenerator_TopLeftCorner(CustomAttributesCache* cache)
-{
-	{
-		TooltipAttribute_t4278647215 * tmp = (TooltipAttribute_t4278647215 *)cache->attributes[0];
-		TooltipAttribute__ctor_m1219806761(tmp, il2cpp_codegen_string_new_wrapper("Calculated tile corners"), NULL);
-	}
-}
-static void GoogleMapTile_t633385143_CustomAttributesCacheGenerator_gpsLocationService(CustomAttributesCache* cache)
-{
-	{
-		HeaderAttribute_t3969069619 * tmp = (HeaderAttribute_t3969069619 *)cache->attributes[0];
-		HeaderAttribute__ctor_m2991758471(tmp, il2cpp_codegen_string_new_wrapper("GPS Settings"), NULL);
-	}
-	{
-		TooltipAttribute_t4278647215 * tmp = (TooltipAttribute_t4278647215 *)cache->attributes[1];
-		TooltipAttribute__ctor_m1219806761(tmp, il2cpp_codegen_string_new_wrapper("GPS service used to locate world center"), NULL);
-	}
-}
-static void GoogleMapTile_t633385143_CustomAttributesCacheGenerator_GoogleMapTile__RefreshMapTile_m3824231422(CustomAttributesCache* cache)
-{
-	{
-		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
-		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
-	}
-}
-static void U3C_RefreshMapTileU3Ec__Iterator0_t4165355993_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
-{
-	{
-		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[0];
-		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
-	}
-}
-static void U3C_RefreshMapTileU3Ec__Iterator0_t4165355993_CustomAttributesCacheGenerator_U3C_RefreshMapTileU3Ec__Iterator0__ctor_m2639893848(CustomAttributesCache* cache)
-{
-	{
-		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
-		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
-	}
-}
-static void U3C_RefreshMapTileU3Ec__Iterator0_t4165355993_CustomAttributesCacheGenerator_U3C_RefreshMapTileU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1749454826(CustomAttributesCache* cache)
-{
-	{
-		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
-		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
-	}
-}
-static void U3C_RefreshMapTileU3Ec__Iterator0_t4165355993_CustomAttributesCacheGenerator_U3C_RefreshMapTileU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m4109238082(CustomAttributesCache* cache)
-{
-	{
-		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
-		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
-	}
-}
-static void U3C_RefreshMapTileU3Ec__Iterator0_t4165355993_CustomAttributesCacheGenerator_U3C_RefreshMapTileU3Ec__Iterator0_Dispose_m2127022555(CustomAttributesCache* cache)
-{
-	{
-		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
-		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
-	}
-}
-static void U3C_RefreshMapTileU3Ec__Iterator0_t4165355993_CustomAttributesCacheGenerator_U3C_RefreshMapTileU3Ec__Iterator0_Reset_m1461071421(CustomAttributesCache* cache)
-{
-	{
-		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
-		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
-	}
-}
-static void GPSLocationService_t1467068904_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
-{
-	{
-		AddComponentMenu_t1099699699 * tmp = (AddComponentMenu_t1099699699 *)cache->attributes[0];
-		AddComponentMenu__ctor_m2024592321(tmp, il2cpp_codegen_string_new_wrapper("Services/GPSLocationService"), NULL);
-	}
-}
-static void GPSLocationService_t1467068904_CustomAttributesCacheGenerator_GPSLocationService_StartService_m3503899654(CustomAttributesCache* cache)
-{
-	{
-		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
-		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
-	}
-}
-static void U3CStartServiceU3Ec__Iterator0_t3921971721_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
-{
-	{
-		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[0];
-		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
-	}
-}
-static void U3CStartServiceU3Ec__Iterator0_t3921971721_CustomAttributesCacheGenerator_U3CStartServiceU3Ec__Iterator0__ctor_m1486237598(CustomAttributesCache* cache)
-{
-	{
-		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
-		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
-	}
-}
-static void U3CStartServiceU3Ec__Iterator0_t3921971721_CustomAttributesCacheGenerator_U3CStartServiceU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m854490674(CustomAttributesCache* cache)
-{
-	{
-		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
-		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
-	}
-}
-static void U3CStartServiceU3Ec__Iterator0_t3921971721_CustomAttributesCacheGenerator_U3CStartServiceU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m3131165610(CustomAttributesCache* cache)
-{
-	{
-		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
-		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
-	}
-}
-static void U3CStartServiceU3Ec__Iterator0_t3921971721_CustomAttributesCacheGenerator_U3CStartServiceU3Ec__Iterator0_Dispose_m118706131(CustomAttributesCache* cache)
-{
-	{
-		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
-		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
-	}
-}
-static void U3CStartServiceU3Ec__Iterator0_t3921971721_CustomAttributesCacheGenerator_U3CStartServiceU3Ec__Iterator0_Reset_m3205768701(CustomAttributesCache* cache)
-{
-	{
-		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
-		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
-	}
-}
 static void g_AssemblyU2DCSharpU2Dfirstpass_Assembly_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	{
@@ -33552,7 +33138,509 @@ static void WaypointProgressTracker_t2206407592_CustomAttributesCacheGenerator_W
 		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
 	}
 }
-extern const CustomAttributesCacheGenerator g_AttributeGenerators[2980] = 
+static void g_AssemblyU2DCSharp_Assembly_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+{
+	{
+		ExtensionAttribute_t1840441203 * tmp = (ExtensionAttribute_t1840441203 *)cache->attributes[0];
+		ExtensionAttribute__ctor_m1028297080(tmp, NULL);
+	}
+	{
+		DebuggableAttribute_t994551506 * tmp = (DebuggableAttribute_t994551506 *)cache->attributes[1];
+		DebuggableAttribute__ctor_m1065484869(tmp, 258LL, NULL);
+	}
+	{
+		RuntimeCompatibilityAttribute_t2430705542 * tmp = (RuntimeCompatibilityAttribute_t2430705542 *)cache->attributes[2];
+		RuntimeCompatibilityAttribute__ctor_m1331212510(tmp, NULL);
+		RuntimeCompatibilityAttribute_set_WrapNonExceptionThrows_m2174793351(tmp, true, NULL);
+	}
+}
+static void GameObjectCommands_t3502278349_CustomAttributesCacheGenerator_GameObjectCommands_ListGameObjects_m2116427220(CustomAttributesCache* cache)
+{
+	{
+		CommandAttribute_t3787907257 * tmp = (CommandAttribute_t3787907257 *)cache->attributes[0];
+		CommandAttribute__ctor_m4266761113(tmp, il2cpp_codegen_string_new_wrapper("object list"), il2cpp_codegen_string_new_wrapper("lists all the game objects in the scene"), true, NULL);
+	}
+}
+static void GameObjectCommands_t3502278349_CustomAttributesCacheGenerator_GameObjectCommands_PrintGameObject_m3484947886(CustomAttributesCache* cache)
+{
+	{
+		CommandAttribute_t3787907257 * tmp = (CommandAttribute_t3787907257 *)cache->attributes[0];
+		CommandAttribute__ctor_m4266761113(tmp, il2cpp_codegen_string_new_wrapper("object print"), il2cpp_codegen_string_new_wrapper("lists properties of the object"), true, NULL);
+	}
+}
+static void GameObjectRoutes_t2873037207_CustomAttributesCacheGenerator_GameObjectRoutes_ListGameObjects_m1695353300(CustomAttributesCache* cache)
+{
+	{
+		RouteAttribute_t3177687375 * tmp = (RouteAttribute_t3177687375 *)cache->attributes[0];
+		RouteAttribute__ctor_m284668859(tmp, il2cpp_codegen_string_new_wrapper("^/object/list.json$"), il2cpp_codegen_string_new_wrapper("(GET|HEAD)"), true, NULL);
+	}
+}
+static void CommandAttribute_t3787907257_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+{
+	{
+		AttributeUsageAttribute_t1057435127 * tmp = (AttributeUsageAttribute_t1057435127 *)cache->attributes[0];
+		AttributeUsageAttribute__ctor_m2873156923(tmp, 64LL, NULL);
+	}
+}
+static void RouteAttribute_t3177687375_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+{
+	{
+		AttributeUsageAttribute_t1057435127 * tmp = (AttributeUsageAttribute_t1057435127 *)cache->attributes[0];
+		AttributeUsageAttribute__ctor_m2873156923(tmp, 64LL, NULL);
+	}
+}
+static void Console_t2866211989_CustomAttributesCacheGenerator_Console_Clear_m854697499(CustomAttributesCache* cache)
+{
+	{
+		CommandAttribute_t3787907257 * tmp = (CommandAttribute_t3787907257 *)cache->attributes[0];
+		CommandAttribute__ctor_m4266761113(tmp, il2cpp_codegen_string_new_wrapper("clear"), il2cpp_codegen_string_new_wrapper("clears console output"), false, NULL);
+	}
+}
+static void Console_t2866211989_CustomAttributesCacheGenerator_Console_Help_m796809583(CustomAttributesCache* cache)
+{
+	{
+		CommandAttribute_t3787907257 * tmp = (CommandAttribute_t3787907257 *)cache->attributes[0];
+		CommandAttribute__ctor_m4266761113(tmp, il2cpp_codegen_string_new_wrapper("help"), il2cpp_codegen_string_new_wrapper("prints commands"), false, NULL);
+	}
+}
+static void Console_t2866211989_CustomAttributesCacheGenerator_Console_Output_m60067589(CustomAttributesCache* cache)
+{
+	{
+		RouteAttribute_t3177687375 * tmp = (RouteAttribute_t3177687375 *)cache->attributes[0];
+		RouteAttribute__ctor_m284668859(tmp, il2cpp_codegen_string_new_wrapper("^/console/out$"), il2cpp_codegen_string_new_wrapper("(GET|HEAD)"), true, NULL);
+	}
+}
+static void Console_t2866211989_CustomAttributesCacheGenerator_Console_Run_m663672359(CustomAttributesCache* cache)
+{
+	{
+		RouteAttribute_t3177687375 * tmp = (RouteAttribute_t3177687375 *)cache->attributes[0];
+		RouteAttribute__ctor_m284668859(tmp, il2cpp_codegen_string_new_wrapper("^/console/run$"), il2cpp_codegen_string_new_wrapper("(GET|HEAD)"), true, NULL);
+	}
+}
+static void Console_t2866211989_CustomAttributesCacheGenerator_Console_History_m950583804(CustomAttributesCache* cache)
+{
+	{
+		RouteAttribute_t3177687375 * tmp = (RouteAttribute_t3177687375 *)cache->attributes[0];
+		RouteAttribute__ctor_m284668859(tmp, il2cpp_codegen_string_new_wrapper("^/console/commandHistory$"), il2cpp_codegen_string_new_wrapper("(GET|HEAD)"), true, NULL);
+	}
+}
+static void Console_t2866211989_CustomAttributesCacheGenerator_Console_Complete_m36330947(CustomAttributesCache* cache)
+{
+	{
+		RouteAttribute_t3177687375 * tmp = (RouteAttribute_t3177687375 *)cache->attributes[0];
+		RouteAttribute__ctor_m284668859(tmp, il2cpp_codegen_string_new_wrapper("^/console/complete$"), il2cpp_codegen_string_new_wrapper("(GET|HEAD)"), true, NULL);
+	}
+}
+static void U3CRegisterAttributesU3Ec__AnonStorey0_t2901168351_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+{
+	{
+		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
+	}
+}
+static void ResponseExtension_t3614192300_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+{
+	{
+		ExtensionAttribute_t1840441203 * tmp = (ExtensionAttribute_t1840441203 *)cache->attributes[0];
+		ExtensionAttribute__ctor_m1028297080(tmp, NULL);
+	}
+}
+static void ResponseExtension_t3614192300_CustomAttributesCacheGenerator_ResponseExtension_WriteString_m3818395102(CustomAttributesCache* cache)
+{
+	{
+		ExtensionAttribute_t1840441203 * tmp = (ExtensionAttribute_t1840441203 *)cache->attributes[0];
+		ExtensionAttribute__ctor_m1028297080(tmp, NULL);
+	}
+}
+static void ResponseExtension_t3614192300_CustomAttributesCacheGenerator_ResponseExtension_WriteBytes_m3582723141(CustomAttributesCache* cache)
+{
+	{
+		ExtensionAttribute_t1840441203 * tmp = (ExtensionAttribute_t1840441203 *)cache->attributes[0];
+		ExtensionAttribute__ctor_m1028297080(tmp, NULL);
+	}
+}
+static void ResponseExtension_t3614192300_CustomAttributesCacheGenerator_ResponseExtension_WriteFile_m586347686(CustomAttributesCache* cache)
+{
+	{
+		ExtensionAttribute_t1840441203 * tmp = (ExtensionAttribute_t1840441203 *)cache->attributes[0];
+		ExtensionAttribute__ctor_m1028297080(tmp, NULL);
+	}
+}
+static void Server_t2567140039_CustomAttributesCacheGenerator_Port(CustomAttributesCache* cache)
+{
+	{
+		SerializeField_t3073427462 * tmp = (SerializeField_t3073427462 *)cache->attributes[0];
+		SerializeField__ctor_m2670658200(tmp, NULL);
+	}
+}
+static void Server_t2567140039_CustomAttributesCacheGenerator_U3CU3Ef__mgU24cache0(CustomAttributesCache* cache)
+{
+	{
+		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
+	}
+}
+static void Server_t2567140039_CustomAttributesCacheGenerator_U3CU3Ef__mgU24cache1(CustomAttributesCache* cache)
+{
+	{
+		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
+	}
+}
+static void Server_t2567140039_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache0(CustomAttributesCache* cache)
+{
+	{
+		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
+	}
+}
+static void Server_t2567140039_CustomAttributesCacheGenerator_U3CU3Ef__mgU24cache2(CustomAttributesCache* cache)
+{
+	{
+		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
+	}
+}
+static void Server_t2567140039_CustomAttributesCacheGenerator_Server_HandleRequests_m1412659028(CustomAttributesCache* cache)
+{
+	{
+		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
+		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
+	}
+}
+static void Server_t2567140039_CustomAttributesCacheGenerator_Server_U3CRegisterFileHandlersU3Em__0_m978890411(CustomAttributesCache* cache)
+{
+	{
+		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
+	}
+}
+static void U3CRegisterFileHandlersU3Ec__AnonStorey1_t1818970228_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+{
+	{
+		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
+	}
+}
+static void U3CHandleRequestsU3Ec__Iterator0_t381024681_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+{
+	{
+		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
+	}
+}
+static void U3CHandleRequestsU3Ec__Iterator0_t381024681_CustomAttributesCacheGenerator_U3CHandleRequestsU3Ec__Iterator0__ctor_m517071840(CustomAttributesCache* cache)
+{
+	{
+		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
+		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
+	}
+}
+static void U3CHandleRequestsU3Ec__Iterator0_t381024681_CustomAttributesCacheGenerator_U3CHandleRequestsU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1182154522(CustomAttributesCache* cache)
+{
+	{
+		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
+		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
+	}
+}
+static void U3CHandleRequestsU3Ec__Iterator0_t381024681_CustomAttributesCacheGenerator_U3CHandleRequestsU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m2401132354(CustomAttributesCache* cache)
+{
+	{
+		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
+		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
+	}
+}
+static void U3CHandleRequestsU3Ec__Iterator0_t381024681_CustomAttributesCacheGenerator_U3CHandleRequestsU3Ec__Iterator0_Dispose_m1792153443(CustomAttributesCache* cache)
+{
+	{
+		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
+		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
+	}
+}
+static void U3CHandleRequestsU3Ec__Iterator0_t381024681_CustomAttributesCacheGenerator_U3CHandleRequestsU3Ec__Iterator0_Reset_m2938468533(CustomAttributesCache* cache)
+{
+	{
+		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
+		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
+	}
+}
+static void GoogleMapTile_t633385143_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+{
+	{
+		AddComponentMenu_t1099699699 * tmp = (AddComponentMenu_t1099699699 *)cache->attributes[0];
+		AddComponentMenu__ctor_m2024592321(tmp, il2cpp_codegen_string_new_wrapper("Mapping/GoogleMapTile"), NULL);
+	}
+}
+static void GoogleMapTile_t633385143_CustomAttributesCacheGenerator_zoomLevel(CustomAttributesCache* cache)
+{
+	{
+		HeaderAttribute_t3969069619 * tmp = (HeaderAttribute_t3969069619 *)cache->attributes[0];
+		HeaderAttribute__ctor_m2991758471(tmp, il2cpp_codegen_string_new_wrapper("Map Settings"), NULL);
+	}
+	{
+		RangeAttribute_t3336560921 * tmp = (RangeAttribute_t3336560921 *)cache->attributes[1];
+		RangeAttribute__ctor_m3213258921(tmp, 1.0f, 20.0f, NULL);
+	}
+	{
+		TooltipAttribute_t4278647215 * tmp = (TooltipAttribute_t4278647215 *)cache->attributes[2];
+		TooltipAttribute__ctor_m1219806761(tmp, il2cpp_codegen_string_new_wrapper("Zoom Level, 1=global - 20=house"), NULL);
+	}
+}
+static void GoogleMapTile_t633385143_CustomAttributesCacheGenerator_mapType(CustomAttributesCache* cache)
+{
+	{
+		TooltipAttribute_t4278647215 * tmp = (TooltipAttribute_t4278647215 *)cache->attributes[0];
+		TooltipAttribute__ctor_m1219806761(tmp, il2cpp_codegen_string_new_wrapper("Type of map, Road, Satellite, Terrain or Hybrid"), NULL);
+	}
+}
+static void GoogleMapTile_t633385143_CustomAttributesCacheGenerator_size(CustomAttributesCache* cache)
+{
+	{
+		RangeAttribute_t3336560921 * tmp = (RangeAttribute_t3336560921 *)cache->attributes[0];
+		RangeAttribute__ctor_m3213258921(tmp, 64.0f, 1024.0f, NULL);
+	}
+	{
+		TooltipAttribute_t4278647215 * tmp = (TooltipAttribute_t4278647215 *)cache->attributes[1];
+		TooltipAttribute__ctor_m1219806761(tmp, il2cpp_codegen_string_new_wrapper("Size in pixels of the map image"), NULL);
+	}
+}
+static void GoogleMapTile_t633385143_CustomAttributesCacheGenerator_doubleResolution(CustomAttributesCache* cache)
+{
+	{
+		TooltipAttribute_t4278647215 * tmp = (TooltipAttribute_t4278647215 *)cache->attributes[0];
+		TooltipAttribute__ctor_m1219806761(tmp, il2cpp_codegen_string_new_wrapper("Double the pixel resolution of the image returned"), NULL);
+	}
+}
+static void GoogleMapTile_t633385143_CustomAttributesCacheGenerator_worldCenterLocation(CustomAttributesCache* cache)
+{
+	{
+		TooltipAttribute_t4278647215 * tmp = (TooltipAttribute_t4278647215 *)cache->attributes[0];
+		TooltipAttribute__ctor_m1219806761(tmp, il2cpp_codegen_string_new_wrapper("Defines the origin of the map"), NULL);
+	}
+}
+static void GoogleMapTile_t633385143_CustomAttributesCacheGenerator_TileOffset(CustomAttributesCache* cache)
+{
+	{
+		HeaderAttribute_t3969069619 * tmp = (HeaderAttribute_t3969069619 *)cache->attributes[0];
+		HeaderAttribute__ctor_m2991758471(tmp, il2cpp_codegen_string_new_wrapper("Tile Settings"), NULL);
+	}
+	{
+		TooltipAttribute_t4278647215 * tmp = (TooltipAttribute_t4278647215 *)cache->attributes[1];
+		TooltipAttribute__ctor_m1219806761(tmp, il2cpp_codegen_string_new_wrapper("Sets the tiles position in tile units"), NULL);
+	}
+}
+static void GoogleMapTile_t633385143_CustomAttributesCacheGenerator_tileCenterLocation(CustomAttributesCache* cache)
+{
+	{
+		TooltipAttribute_t4278647215 * tmp = (TooltipAttribute_t4278647215 *)cache->attributes[0];
+		TooltipAttribute__ctor_m1219806761(tmp, il2cpp_codegen_string_new_wrapper("Calculated tile center"), NULL);
+	}
+}
+static void GoogleMapTile_t633385143_CustomAttributesCacheGenerator_TopLeftCorner(CustomAttributesCache* cache)
+{
+	{
+		TooltipAttribute_t4278647215 * tmp = (TooltipAttribute_t4278647215 *)cache->attributes[0];
+		TooltipAttribute__ctor_m1219806761(tmp, il2cpp_codegen_string_new_wrapper("Calculated tile corners"), NULL);
+	}
+}
+static void GoogleMapTile_t633385143_CustomAttributesCacheGenerator_gpsLocationService(CustomAttributesCache* cache)
+{
+	{
+		HeaderAttribute_t3969069619 * tmp = (HeaderAttribute_t3969069619 *)cache->attributes[0];
+		HeaderAttribute__ctor_m2991758471(tmp, il2cpp_codegen_string_new_wrapper("GPS Settings"), NULL);
+	}
+	{
+		TooltipAttribute_t4278647215 * tmp = (TooltipAttribute_t4278647215 *)cache->attributes[1];
+		TooltipAttribute__ctor_m1219806761(tmp, il2cpp_codegen_string_new_wrapper("GPS service used to locate world center"), NULL);
+	}
+}
+static void GoogleMapTile_t633385143_CustomAttributesCacheGenerator_GoogleMapTile__RefreshMapTile_m3824231422(CustomAttributesCache* cache)
+{
+	{
+		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
+		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
+	}
+}
+static void U3C_RefreshMapTileU3Ec__Iterator0_t4165355993_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+{
+	{
+		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
+	}
+}
+static void U3C_RefreshMapTileU3Ec__Iterator0_t4165355993_CustomAttributesCacheGenerator_U3C_RefreshMapTileU3Ec__Iterator0__ctor_m2639893848(CustomAttributesCache* cache)
+{
+	{
+		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
+		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
+	}
+}
+static void U3C_RefreshMapTileU3Ec__Iterator0_t4165355993_CustomAttributesCacheGenerator_U3C_RefreshMapTileU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1749454826(CustomAttributesCache* cache)
+{
+	{
+		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
+		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
+	}
+}
+static void U3C_RefreshMapTileU3Ec__Iterator0_t4165355993_CustomAttributesCacheGenerator_U3C_RefreshMapTileU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m4109238082(CustomAttributesCache* cache)
+{
+	{
+		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
+		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
+	}
+}
+static void U3C_RefreshMapTileU3Ec__Iterator0_t4165355993_CustomAttributesCacheGenerator_U3C_RefreshMapTileU3Ec__Iterator0_Dispose_m2127022555(CustomAttributesCache* cache)
+{
+	{
+		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
+		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
+	}
+}
+static void U3C_RefreshMapTileU3Ec__Iterator0_t4165355993_CustomAttributesCacheGenerator_U3C_RefreshMapTileU3Ec__Iterator0_Reset_m1461071421(CustomAttributesCache* cache)
+{
+	{
+		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
+		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
+	}
+}
+static void GPSLocationService_t157925672_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+{
+	{
+		AddComponentMenu_t1099699699 * tmp = (AddComponentMenu_t1099699699 *)cache->attributes[0];
+		AddComponentMenu__ctor_m2024592321(tmp, il2cpp_codegen_string_new_wrapper("Services/GPSLocationService"), NULL);
+	}
+}
+static void GPSLocationService_t157925672_CustomAttributesCacheGenerator_OnMapRedraw(CustomAttributesCache* cache)
+{
+	{
+		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
+	}
+	{
+		DebuggerBrowsableAttribute_t1386379234 * tmp = (DebuggerBrowsableAttribute_t1386379234 *)cache->attributes[1];
+		DebuggerBrowsableAttribute__ctor_m3729055103(tmp, 0LL, NULL);
+	}
+}
+static void GPSLocationService_t157925672_CustomAttributesCacheGenerator_MapTileScale(CustomAttributesCache* cache)
+{
+	{
+		HeaderAttribute_t3969069619 * tmp = (HeaderAttribute_t3969069619 *)cache->attributes[0];
+		HeaderAttribute__ctor_m2991758471(tmp, il2cpp_codegen_string_new_wrapper("Map Tile Parameters"), NULL);
+	}
+}
+static void GPSLocationService_t157925672_CustomAttributesCacheGenerator_Simulating(CustomAttributesCache* cache)
+{
+	{
+		HeaderAttribute_t3969069619 * tmp = (HeaderAttribute_t3969069619 *)cache->attributes[0];
+		HeaderAttribute__ctor_m2991758471(tmp, il2cpp_codegen_string_new_wrapper("GPS Simulation Settings"), NULL);
+	}
+}
+static void GPSLocationService_t157925672_CustomAttributesCacheGenerator_IsServiceStarted(CustomAttributesCache* cache)
+{
+	{
+		HeaderAttribute_t3969069619 * tmp = (HeaderAttribute_t3969069619 *)cache->attributes[0];
+		HeaderAttribute__ctor_m2991758471(tmp, il2cpp_codegen_string_new_wrapper("Exposed for GPS Debugging Purposes Only"), NULL);
+	}
+}
+static void GPSLocationService_t157925672_CustomAttributesCacheGenerator_GPSLocationService_StartSimulationService_m662622173(CustomAttributesCache* cache)
+{
+	{
+		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
+		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
+	}
+}
+static void GPSLocationService_t157925672_CustomAttributesCacheGenerator_GPSLocationService_StartService_m1005415014(CustomAttributesCache* cache)
+{
+	{
+		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
+		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
+	}
+}
+static void U3CStartSimulationServiceU3Ec__Iterator0_t957775792_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+{
+	{
+		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
+	}
+}
+static void U3CStartSimulationServiceU3Ec__Iterator0_t957775792_CustomAttributesCacheGenerator_U3CStartSimulationServiceU3Ec__Iterator0__ctor_m809550947(CustomAttributesCache* cache)
+{
+	{
+		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
+		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
+	}
+}
+static void U3CStartSimulationServiceU3Ec__Iterator0_t957775792_CustomAttributesCacheGenerator_U3CStartSimulationServiceU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3442757709(CustomAttributesCache* cache)
+{
+	{
+		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
+		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
+	}
+}
+static void U3CStartSimulationServiceU3Ec__Iterator0_t957775792_CustomAttributesCacheGenerator_U3CStartSimulationServiceU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m3221866965(CustomAttributesCache* cache)
+{
+	{
+		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
+		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
+	}
+}
+static void U3CStartSimulationServiceU3Ec__Iterator0_t957775792_CustomAttributesCacheGenerator_U3CStartSimulationServiceU3Ec__Iterator0_Dispose_m2687129166(CustomAttributesCache* cache)
+{
+	{
+		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
+		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
+	}
+}
+static void U3CStartSimulationServiceU3Ec__Iterator0_t957775792_CustomAttributesCacheGenerator_U3CStartSimulationServiceU3Ec__Iterator0_Reset_m4032192196(CustomAttributesCache* cache)
+{
+	{
+		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
+		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
+	}
+}
+static void U3CStartServiceU3Ec__Iterator1_t1844591556_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+{
+	{
+		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
+	}
+}
+static void U3CStartServiceU3Ec__Iterator1_t1844591556_CustomAttributesCacheGenerator_U3CStartServiceU3Ec__Iterator1__ctor_m3640559961(CustomAttributesCache* cache)
+{
+	{
+		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
+		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
+	}
+}
+static void U3CStartServiceU3Ec__Iterator1_t1844591556_CustomAttributesCacheGenerator_U3CStartServiceU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2083603031(CustomAttributesCache* cache)
+{
+	{
+		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
+		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
+	}
+}
+static void U3CStartServiceU3Ec__Iterator1_t1844591556_CustomAttributesCacheGenerator_U3CStartServiceU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m4267567567(CustomAttributesCache* cache)
+{
+	{
+		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
+		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
+	}
+}
+static void U3CStartServiceU3Ec__Iterator1_t1844591556_CustomAttributesCacheGenerator_U3CStartServiceU3Ec__Iterator1_Dispose_m4254633198(CustomAttributesCache* cache)
+{
+	{
+		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
+		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
+	}
+}
+static void U3CStartServiceU3Ec__Iterator1_t1844591556_CustomAttributesCacheGenerator_U3CStartServiceU3Ec__Iterator1_Reset_m2840820984(CustomAttributesCache* cache)
+{
+	{
+		DebuggerHiddenAttribute_t638884887 * tmp = (DebuggerHiddenAttribute_t638884887 *)cache->attributes[0];
+		DebuggerHiddenAttribute__ctor_m2012788180(tmp, NULL);
+	}
+}
+extern const CustomAttributesCacheGenerator g_AttributeGenerators[2992] = 
 {
 	NULL,
 	g_mscorlib_Assembly_CustomAttributesCacheGenerator,
@@ -36289,61 +36377,6 @@ extern const CustomAttributesCacheGenerator g_AttributeGenerators[2980] =
 	Shadow_t4269599528_CustomAttributesCacheGenerator_m_EffectDistance,
 	Shadow_t4269599528_CustomAttributesCacheGenerator_m_UseGraphicAlpha,
 	U3CPrivateImplementationDetailsU3E_t1486305141_CustomAttributesCacheGenerator,
-	g_AssemblyU2DCSharp_Assembly_CustomAttributesCacheGenerator,
-	GameObjectCommands_t3502278349_CustomAttributesCacheGenerator_GameObjectCommands_ListGameObjects_m2116427220,
-	GameObjectCommands_t3502278349_CustomAttributesCacheGenerator_GameObjectCommands_PrintGameObject_m3484947886,
-	GameObjectRoutes_t2873037207_CustomAttributesCacheGenerator_GameObjectRoutes_ListGameObjects_m1695353300,
-	CommandAttribute_t3787907257_CustomAttributesCacheGenerator,
-	RouteAttribute_t3177687375_CustomAttributesCacheGenerator,
-	Console_t2866211989_CustomAttributesCacheGenerator_Console_Clear_m854697499,
-	Console_t2866211989_CustomAttributesCacheGenerator_Console_Help_m796809583,
-	Console_t2866211989_CustomAttributesCacheGenerator_Console_Output_m60067589,
-	Console_t2866211989_CustomAttributesCacheGenerator_Console_Run_m663672359,
-	Console_t2866211989_CustomAttributesCacheGenerator_Console_History_m950583804,
-	Console_t2866211989_CustomAttributesCacheGenerator_Console_Complete_m36330947,
-	U3CRegisterAttributesU3Ec__AnonStorey0_t2901168351_CustomAttributesCacheGenerator,
-	ResponseExtension_t3614192300_CustomAttributesCacheGenerator,
-	ResponseExtension_t3614192300_CustomAttributesCacheGenerator_ResponseExtension_WriteString_m3818395102,
-	ResponseExtension_t3614192300_CustomAttributesCacheGenerator_ResponseExtension_WriteBytes_m3582723141,
-	ResponseExtension_t3614192300_CustomAttributesCacheGenerator_ResponseExtension_WriteFile_m586347686,
-	Server_t2567140039_CustomAttributesCacheGenerator_Port,
-	Server_t2567140039_CustomAttributesCacheGenerator_U3CU3Ef__mgU24cache0,
-	Server_t2567140039_CustomAttributesCacheGenerator_U3CU3Ef__mgU24cache1,
-	Server_t2567140039_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache0,
-	Server_t2567140039_CustomAttributesCacheGenerator_U3CU3Ef__mgU24cache2,
-	Server_t2567140039_CustomAttributesCacheGenerator_Server_HandleRequests_m1412659028,
-	Server_t2567140039_CustomAttributesCacheGenerator_Server_U3CRegisterFileHandlersU3Em__0_m978890411,
-	U3CRegisterFileHandlersU3Ec__AnonStorey1_t1818970228_CustomAttributesCacheGenerator,
-	U3CHandleRequestsU3Ec__Iterator0_t381024681_CustomAttributesCacheGenerator,
-	U3CHandleRequestsU3Ec__Iterator0_t381024681_CustomAttributesCacheGenerator_U3CHandleRequestsU3Ec__Iterator0__ctor_m517071840,
-	U3CHandleRequestsU3Ec__Iterator0_t381024681_CustomAttributesCacheGenerator_U3CHandleRequestsU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1182154522,
-	U3CHandleRequestsU3Ec__Iterator0_t381024681_CustomAttributesCacheGenerator_U3CHandleRequestsU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m2401132354,
-	U3CHandleRequestsU3Ec__Iterator0_t381024681_CustomAttributesCacheGenerator_U3CHandleRequestsU3Ec__Iterator0_Dispose_m1792153443,
-	U3CHandleRequestsU3Ec__Iterator0_t381024681_CustomAttributesCacheGenerator_U3CHandleRequestsU3Ec__Iterator0_Reset_m2938468533,
-	GoogleMapTile_t633385143_CustomAttributesCacheGenerator,
-	GoogleMapTile_t633385143_CustomAttributesCacheGenerator_zoomLevel,
-	GoogleMapTile_t633385143_CustomAttributesCacheGenerator_mapType,
-	GoogleMapTile_t633385143_CustomAttributesCacheGenerator_size,
-	GoogleMapTile_t633385143_CustomAttributesCacheGenerator_doubleResolution,
-	GoogleMapTile_t633385143_CustomAttributesCacheGenerator_TileOffset,
-	GoogleMapTile_t633385143_CustomAttributesCacheGenerator_tileCenterLocation,
-	GoogleMapTile_t633385143_CustomAttributesCacheGenerator_TopLeftCorner,
-	GoogleMapTile_t633385143_CustomAttributesCacheGenerator_gpsLocationService,
-	GoogleMapTile_t633385143_CustomAttributesCacheGenerator_GoogleMapTile__RefreshMapTile_m3824231422,
-	U3C_RefreshMapTileU3Ec__Iterator0_t4165355993_CustomAttributesCacheGenerator,
-	U3C_RefreshMapTileU3Ec__Iterator0_t4165355993_CustomAttributesCacheGenerator_U3C_RefreshMapTileU3Ec__Iterator0__ctor_m2639893848,
-	U3C_RefreshMapTileU3Ec__Iterator0_t4165355993_CustomAttributesCacheGenerator_U3C_RefreshMapTileU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1749454826,
-	U3C_RefreshMapTileU3Ec__Iterator0_t4165355993_CustomAttributesCacheGenerator_U3C_RefreshMapTileU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m4109238082,
-	U3C_RefreshMapTileU3Ec__Iterator0_t4165355993_CustomAttributesCacheGenerator_U3C_RefreshMapTileU3Ec__Iterator0_Dispose_m2127022555,
-	U3C_RefreshMapTileU3Ec__Iterator0_t4165355993_CustomAttributesCacheGenerator_U3C_RefreshMapTileU3Ec__Iterator0_Reset_m1461071421,
-	GPSLocationService_t1467068904_CustomAttributesCacheGenerator,
-	GPSLocationService_t1467068904_CustomAttributesCacheGenerator_GPSLocationService_StartService_m3503899654,
-	U3CStartServiceU3Ec__Iterator0_t3921971721_CustomAttributesCacheGenerator,
-	U3CStartServiceU3Ec__Iterator0_t3921971721_CustomAttributesCacheGenerator_U3CStartServiceU3Ec__Iterator0__ctor_m1486237598,
-	U3CStartServiceU3Ec__Iterator0_t3921971721_CustomAttributesCacheGenerator_U3CStartServiceU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m854490674,
-	U3CStartServiceU3Ec__Iterator0_t3921971721_CustomAttributesCacheGenerator_U3CStartServiceU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m3131165610,
-	U3CStartServiceU3Ec__Iterator0_t3921971721_CustomAttributesCacheGenerator_U3CStartServiceU3Ec__Iterator0_Dispose_m118706131,
-	U3CStartServiceU3Ec__Iterator0_t3921971721_CustomAttributesCacheGenerator_U3CStartServiceU3Ec__Iterator0_Reset_m3205768701,
 	g_AssemblyU2DCSharpU2Dfirstpass_Assembly_CustomAttributesCacheGenerator,
 	AbstractTargetFollower_t3911078641_CustomAttributesCacheGenerator_m_Target,
 	AbstractTargetFollower_t3911078641_CustomAttributesCacheGenerator_m_AutoTargetPlayer,
@@ -36534,4 +36567,71 @@ extern const CustomAttributesCacheGenerator g_AttributeGenerators[2980] =
 	WaypointProgressTracker_t2206407592_CustomAttributesCacheGenerator_WaypointProgressTracker_set_speedPoint_m3329005199,
 	WaypointProgressTracker_t2206407592_CustomAttributesCacheGenerator_WaypointProgressTracker_get_progressPoint_m3395225926,
 	WaypointProgressTracker_t2206407592_CustomAttributesCacheGenerator_WaypointProgressTracker_set_progressPoint_m4057042469,
+	g_AssemblyU2DCSharp_Assembly_CustomAttributesCacheGenerator,
+	GameObjectCommands_t3502278349_CustomAttributesCacheGenerator_GameObjectCommands_ListGameObjects_m2116427220,
+	GameObjectCommands_t3502278349_CustomAttributesCacheGenerator_GameObjectCommands_PrintGameObject_m3484947886,
+	GameObjectRoutes_t2873037207_CustomAttributesCacheGenerator_GameObjectRoutes_ListGameObjects_m1695353300,
+	CommandAttribute_t3787907257_CustomAttributesCacheGenerator,
+	RouteAttribute_t3177687375_CustomAttributesCacheGenerator,
+	Console_t2866211989_CustomAttributesCacheGenerator_Console_Clear_m854697499,
+	Console_t2866211989_CustomAttributesCacheGenerator_Console_Help_m796809583,
+	Console_t2866211989_CustomAttributesCacheGenerator_Console_Output_m60067589,
+	Console_t2866211989_CustomAttributesCacheGenerator_Console_Run_m663672359,
+	Console_t2866211989_CustomAttributesCacheGenerator_Console_History_m950583804,
+	Console_t2866211989_CustomAttributesCacheGenerator_Console_Complete_m36330947,
+	U3CRegisterAttributesU3Ec__AnonStorey0_t2901168351_CustomAttributesCacheGenerator,
+	ResponseExtension_t3614192300_CustomAttributesCacheGenerator,
+	ResponseExtension_t3614192300_CustomAttributesCacheGenerator_ResponseExtension_WriteString_m3818395102,
+	ResponseExtension_t3614192300_CustomAttributesCacheGenerator_ResponseExtension_WriteBytes_m3582723141,
+	ResponseExtension_t3614192300_CustomAttributesCacheGenerator_ResponseExtension_WriteFile_m586347686,
+	Server_t2567140039_CustomAttributesCacheGenerator_Port,
+	Server_t2567140039_CustomAttributesCacheGenerator_U3CU3Ef__mgU24cache0,
+	Server_t2567140039_CustomAttributesCacheGenerator_U3CU3Ef__mgU24cache1,
+	Server_t2567140039_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache0,
+	Server_t2567140039_CustomAttributesCacheGenerator_U3CU3Ef__mgU24cache2,
+	Server_t2567140039_CustomAttributesCacheGenerator_Server_HandleRequests_m1412659028,
+	Server_t2567140039_CustomAttributesCacheGenerator_Server_U3CRegisterFileHandlersU3Em__0_m978890411,
+	U3CRegisterFileHandlersU3Ec__AnonStorey1_t1818970228_CustomAttributesCacheGenerator,
+	U3CHandleRequestsU3Ec__Iterator0_t381024681_CustomAttributesCacheGenerator,
+	U3CHandleRequestsU3Ec__Iterator0_t381024681_CustomAttributesCacheGenerator_U3CHandleRequestsU3Ec__Iterator0__ctor_m517071840,
+	U3CHandleRequestsU3Ec__Iterator0_t381024681_CustomAttributesCacheGenerator_U3CHandleRequestsU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1182154522,
+	U3CHandleRequestsU3Ec__Iterator0_t381024681_CustomAttributesCacheGenerator_U3CHandleRequestsU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m2401132354,
+	U3CHandleRequestsU3Ec__Iterator0_t381024681_CustomAttributesCacheGenerator_U3CHandleRequestsU3Ec__Iterator0_Dispose_m1792153443,
+	U3CHandleRequestsU3Ec__Iterator0_t381024681_CustomAttributesCacheGenerator_U3CHandleRequestsU3Ec__Iterator0_Reset_m2938468533,
+	GoogleMapTile_t633385143_CustomAttributesCacheGenerator,
+	GoogleMapTile_t633385143_CustomAttributesCacheGenerator_zoomLevel,
+	GoogleMapTile_t633385143_CustomAttributesCacheGenerator_mapType,
+	GoogleMapTile_t633385143_CustomAttributesCacheGenerator_size,
+	GoogleMapTile_t633385143_CustomAttributesCacheGenerator_doubleResolution,
+	GoogleMapTile_t633385143_CustomAttributesCacheGenerator_worldCenterLocation,
+	GoogleMapTile_t633385143_CustomAttributesCacheGenerator_TileOffset,
+	GoogleMapTile_t633385143_CustomAttributesCacheGenerator_tileCenterLocation,
+	GoogleMapTile_t633385143_CustomAttributesCacheGenerator_TopLeftCorner,
+	GoogleMapTile_t633385143_CustomAttributesCacheGenerator_gpsLocationService,
+	GoogleMapTile_t633385143_CustomAttributesCacheGenerator_GoogleMapTile__RefreshMapTile_m3824231422,
+	U3C_RefreshMapTileU3Ec__Iterator0_t4165355993_CustomAttributesCacheGenerator,
+	U3C_RefreshMapTileU3Ec__Iterator0_t4165355993_CustomAttributesCacheGenerator_U3C_RefreshMapTileU3Ec__Iterator0__ctor_m2639893848,
+	U3C_RefreshMapTileU3Ec__Iterator0_t4165355993_CustomAttributesCacheGenerator_U3C_RefreshMapTileU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1749454826,
+	U3C_RefreshMapTileU3Ec__Iterator0_t4165355993_CustomAttributesCacheGenerator_U3C_RefreshMapTileU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m4109238082,
+	U3C_RefreshMapTileU3Ec__Iterator0_t4165355993_CustomAttributesCacheGenerator_U3C_RefreshMapTileU3Ec__Iterator0_Dispose_m2127022555,
+	U3C_RefreshMapTileU3Ec__Iterator0_t4165355993_CustomAttributesCacheGenerator_U3C_RefreshMapTileU3Ec__Iterator0_Reset_m1461071421,
+	GPSLocationService_t157925672_CustomAttributesCacheGenerator,
+	GPSLocationService_t157925672_CustomAttributesCacheGenerator_OnMapRedraw,
+	GPSLocationService_t157925672_CustomAttributesCacheGenerator_MapTileScale,
+	GPSLocationService_t157925672_CustomAttributesCacheGenerator_Simulating,
+	GPSLocationService_t157925672_CustomAttributesCacheGenerator_IsServiceStarted,
+	GPSLocationService_t157925672_CustomAttributesCacheGenerator_GPSLocationService_StartSimulationService_m662622173,
+	GPSLocationService_t157925672_CustomAttributesCacheGenerator_GPSLocationService_StartService_m1005415014,
+	U3CStartSimulationServiceU3Ec__Iterator0_t957775792_CustomAttributesCacheGenerator,
+	U3CStartSimulationServiceU3Ec__Iterator0_t957775792_CustomAttributesCacheGenerator_U3CStartSimulationServiceU3Ec__Iterator0__ctor_m809550947,
+	U3CStartSimulationServiceU3Ec__Iterator0_t957775792_CustomAttributesCacheGenerator_U3CStartSimulationServiceU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3442757709,
+	U3CStartSimulationServiceU3Ec__Iterator0_t957775792_CustomAttributesCacheGenerator_U3CStartSimulationServiceU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m3221866965,
+	U3CStartSimulationServiceU3Ec__Iterator0_t957775792_CustomAttributesCacheGenerator_U3CStartSimulationServiceU3Ec__Iterator0_Dispose_m2687129166,
+	U3CStartSimulationServiceU3Ec__Iterator0_t957775792_CustomAttributesCacheGenerator_U3CStartSimulationServiceU3Ec__Iterator0_Reset_m4032192196,
+	U3CStartServiceU3Ec__Iterator1_t1844591556_CustomAttributesCacheGenerator,
+	U3CStartServiceU3Ec__Iterator1_t1844591556_CustomAttributesCacheGenerator_U3CStartServiceU3Ec__Iterator1__ctor_m3640559961,
+	U3CStartServiceU3Ec__Iterator1_t1844591556_CustomAttributesCacheGenerator_U3CStartServiceU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2083603031,
+	U3CStartServiceU3Ec__Iterator1_t1844591556_CustomAttributesCacheGenerator_U3CStartServiceU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m4267567567,
+	U3CStartServiceU3Ec__Iterator1_t1844591556_CustomAttributesCacheGenerator_U3CStartServiceU3Ec__Iterator1_Dispose_m4254633198,
+	U3CStartServiceU3Ec__Iterator1_t1844591556_CustomAttributesCacheGenerator_U3CStartServiceU3Ec__Iterator1_Reset_m2840820984,
 };

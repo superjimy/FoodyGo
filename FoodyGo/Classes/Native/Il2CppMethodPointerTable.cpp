@@ -11294,122 +11294,6 @@ extern "C" void VerticalLayoutGroup_CalculateLayoutInputHorizontal_m497637066 ()
 extern "C" void VerticalLayoutGroup_CalculateLayoutInputVertical_m3227111700 ();
 extern "C" void VerticalLayoutGroup_SetLayoutHorizontal_m2935499508 ();
 extern "C" void VerticalLayoutGroup_SetLayoutVertical_m1302409034 ();
-extern "C" void CharacterGPSCompassController__ctor_m1020753230 ();
-extern "C" void CharacterGPSCompassController_Start_m1272467338 ();
-extern "C" void CharacterGPSCompassController_Update_m1820773219 ();
-extern "C" void CommandAttribute__ctor_m4266761113 ();
-extern "C" void Callback__ctor_m4263581158 ();
-extern "C" void Callback_Invoke_m4144892090 ();
-extern "C" void Callback_BeginInvoke_m3195904987 ();
-extern "C" void Callback_EndInvoke_m2948853812 ();
-extern "C" void CallbackSimple__ctor_m4099773160 ();
-extern "C" void CallbackSimple_Invoke_m1258916178 ();
-extern "C" void CallbackSimple_BeginInvoke_m41461633 ();
-extern "C" void CallbackSimple_EndInvoke_m454483378 ();
-extern "C" void CommandTree__ctor_m2178951376 ();
-extern "C" void CommandTree_Add_m2094034878 ();
-extern "C" void CommandTree__add_m325761766 ();
-extern "C" void CommandTree_Complete_m2145451060 ();
-extern "C" void CommandTree__complete_m2931263162 ();
-extern "C" void CommandTree_Run_m2035404671 ();
-extern "C" void CommandTree__run_m1353361691 ();
-extern "C" void CommandTree_RunCommand_m1850729902 ();
-extern "C" void CommandTree__cctor_m768018971 ();
-extern "C" void Console__ctor_m3247319816 ();
-extern "C" void Console_get_Instance_m1644869778 ();
-extern "C" void Console_Update_m3443310003 ();
-extern "C" void Console_Queue_m252380682 ();
-extern "C" void Console_Run_m2105788273 ();
-extern "C" void Console_Clear_m854697499 ();
-extern "C" void Console_Help_m796809583 ();
-extern "C" void Console_Complete_m1314309604 ();
-extern "C" void Console_LogCommand_m2141071407 ();
-extern "C" void Console_Log_m3707847004 ();
-extern "C" void Console_LogCallback_m2786791236 ();
-extern "C" void Console_Output_m2256428968 ();
-extern "C" void Console_RegisterCommand_m3502823492 ();
-extern "C" void Console_RegisterAttributes_m850296390 ();
-extern "C" void Console_PreviousCommand_m3281995114 ();
-extern "C" void Console_RecordCommand_m2988653448 ();
-extern "C" void Console_Output_m60067589 ();
-extern "C" void Console_Run_m663672359 ();
-extern "C" void Console_History_m950583804 ();
-extern "C" void Console_Complete_m36330947 ();
-extern "C" void U3CRegisterAttributesU3Ec__AnonStorey0__ctor_m1932064298 ();
-extern "C" void U3CRegisterAttributesU3Ec__AnonStorey0_U3CU3Em__0_m1973820893 ();
-extern "C" void RequestContext__ctor_m34089064 ();
-extern "C" void RequestContext_get_Request_m1321390185 ();
-extern "C" void RequestContext_get_Response_m4094499205 ();
-extern "C" void RouteAttribute__ctor_m284668859 ();
-extern "C" void Callback__ctor_m39569178 ();
-extern "C" void Callback_Invoke_m4153886412 ();
-extern "C" void Callback_BeginInvoke_m1044305757 ();
-extern "C" void Callback_EndInvoke_m2202959380 ();
-extern "C" void Server__ctor_m1546151554 ();
-extern "C" void Server_Awake_m3434257485 ();
-extern "C" void Server_RegisterRoutes_m1890779127 ();
-extern "C" void Server_FindFileType_m968151360 ();
-extern "C" void Server_WWWFileHandler_m1335889722 ();
-extern "C" void Server_FileHandler_m3142141125 ();
-extern "C" void Server_RegisterFileHandlers_m4081294066 ();
-extern "C" void Server_OnEnable_m1651695114 ();
-extern "C" void Server_OnDisable_m2296083613 ();
-extern "C" void Server_Update_m1691401697 ();
-extern "C" void Server_ListenerCallback_m774515892 ();
-extern "C" void Server_HandleRequest_m1964231163 ();
-extern "C" void Server_HandleRequests_m1412659028 ();
-extern "C" void Server__cctor_m4228286511 ();
-extern "C" void Server_U3CRegisterFileHandlersU3Em__0_m978890411 ();
-extern "C" void U3CHandleRequestsU3Ec__Iterator0__ctor_m517071840 ();
-extern "C" void U3CHandleRequestsU3Ec__Iterator0_MoveNext_m1318461940 ();
-extern "C" void U3CHandleRequestsU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1182154522 ();
-extern "C" void U3CHandleRequestsU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m2401132354 ();
-extern "C" void U3CHandleRequestsU3Ec__Iterator0_Dispose_m1792153443 ();
-extern "C" void U3CHandleRequestsU3Ec__Iterator0_Reset_m2938468533 ();
-extern "C" void U3CRegisterFileHandlersU3Ec__AnonStorey1__ctor_m2728630795 ();
-extern "C" void U3CRegisterFileHandlersU3Ec__AnonStorey1_U3CU3Em__0_m3050432582 ();
-extern "C" void U3CRegisterFileHandlersU3Ec__AnonStorey1_U3CU3Em__1_m2523917477 ();
-extern "C" void FileHandlerDelegate__ctor_m2517669016 ();
-extern "C" void FileHandlerDelegate_Invoke_m3289004837 ();
-extern "C" void FileHandlerDelegate_BeginInvoke_m544979642 ();
-extern "C" void FileHandlerDelegate_EndInvoke_m4153006218 ();
-extern "C" void GameObjectCommands_ListGameObjects_m2116427220 ();
-extern "C" void GameObjectCommands_PrintGameObject_m3484947886 ();
-extern "C" void GameObjectRoutes_ListGameObjects_m1695353300 ();
-extern "C" void GoogleMapTile__ctor_m3006027912 ();
-extern "C" void GoogleMapTile_Start_m508170516 ();
-extern "C" void GoogleMapTile_Update_m1733301035 ();
-extern "C" void GoogleMapTile_RefreshMapTile_m3694952979 ();
-extern "C" void GoogleMapTile__RefreshMapTile_m3824231422 ();
-extern "C" void U3C_RefreshMapTileU3Ec__Iterator0__ctor_m2639893848 ();
-extern "C" void U3C_RefreshMapTileU3Ec__Iterator0_MoveNext_m352504860 ();
-extern "C" void U3C_RefreshMapTileU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1749454826 ();
-extern "C" void U3C_RefreshMapTileU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m4109238082 ();
-extern "C" void U3C_RefreshMapTileU3Ec__Iterator0_Dispose_m2127022555 ();
-extern "C" void U3C_RefreshMapTileU3Ec__Iterator0_Reset_m1461071421 ();
-extern "C" void GoogleMapUtils__ctor_m3308275453 ();
-extern "C" void GoogleMapUtils_LonToX_m3064781488 ();
-extern "C" void GoogleMapUtils_LatToY_m133918249 ();
-extern "C" void GoogleMapUtils_XToLon_m4171188002 ();
-extern "C" void GoogleMapUtils_YToLat_m1133913441 ();
-extern "C" void GoogleMapUtils_adjustLonByPixels_m3162849290 ();
-extern "C" void GoogleMapUtils_adjustLatByPixels_m1284315766 ();
-extern "C" void GoogleMapUtils__cctor_m2700215808 ();
-extern "C" void MapLocation__ctor_m2136483586 ();
-extern "C" void GPSLocationService__ctor_m142404925 ();
-extern "C" void GPSLocationService_Start_m2006042269 ();
-extern "C" void GPSLocationService_StartService_m3503899654 ();
-extern "C" void GPSLocationService_Update_m1975834144 ();
-extern "C" void GPSLocationService_Dispose_m4233238980 ();
-extern "C" void U3CStartServiceU3Ec__Iterator0__ctor_m1486237598 ();
-extern "C" void U3CStartServiceU3Ec__Iterator0_MoveNext_m2696184654 ();
-extern "C" void U3CStartServiceU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m854490674 ();
-extern "C" void U3CStartServiceU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m3131165610 ();
-extern "C" void U3CStartServiceU3Ec__Iterator0_Dispose_m118706131 ();
-extern "C" void U3CStartServiceU3Ec__Iterator0_Reset_m3205768701 ();
-extern "C" void ResponseExtension_WriteString_m3818395102 ();
-extern "C" void ResponseExtension_WriteBytes_m3582723141 ();
-extern "C" void ResponseExtension_WriteFile_m586347686 ();
 extern "C" void AlphaButtonClickMask__ctor_m637836257 ();
 extern "C" void AlphaButtonClickMask_Start_m233381265 ();
 extern "C" void AlphaButtonClickMask_IsRaycastLocationValid_m964310473 ();
@@ -11800,7 +11684,143 @@ extern "C" void BallUserControl__ctor_m1854748185 ();
 extern "C" void BallUserControl_Awake_m4216224384 ();
 extern "C" void BallUserControl_Update_m1471660078 ();
 extern "C" void BallUserControl_FixedUpdate_m1908019444 ();
-extern const Il2CppMethodPointer g_MethodPointers[11783] = 
+extern "C" void CommandAttribute__ctor_m4266761113 ();
+extern "C" void Callback__ctor_m4263581158 ();
+extern "C" void Callback_Invoke_m4144892090 ();
+extern "C" void Callback_BeginInvoke_m3195904987 ();
+extern "C" void Callback_EndInvoke_m2948853812 ();
+extern "C" void CallbackSimple__ctor_m4099773160 ();
+extern "C" void CallbackSimple_Invoke_m1258916178 ();
+extern "C" void CallbackSimple_BeginInvoke_m41461633 ();
+extern "C" void CallbackSimple_EndInvoke_m454483378 ();
+extern "C" void CommandTree__ctor_m2178951376 ();
+extern "C" void CommandTree_Add_m2094034878 ();
+extern "C" void CommandTree__add_m325761766 ();
+extern "C" void CommandTree_Complete_m2145451060 ();
+extern "C" void CommandTree__complete_m2931263162 ();
+extern "C" void CommandTree_Run_m2035404671 ();
+extern "C" void CommandTree__run_m1353361691 ();
+extern "C" void CommandTree_RunCommand_m1850729902 ();
+extern "C" void CommandTree__cctor_m768018971 ();
+extern "C" void Console__ctor_m3247319816 ();
+extern "C" void Console_get_Instance_m1644869778 ();
+extern "C" void Console_Update_m3443310003 ();
+extern "C" void Console_Queue_m252380682 ();
+extern "C" void Console_Run_m2105788273 ();
+extern "C" void Console_Clear_m854697499 ();
+extern "C" void Console_Help_m796809583 ();
+extern "C" void Console_Complete_m1314309604 ();
+extern "C" void Console_LogCommand_m2141071407 ();
+extern "C" void Console_Log_m3707847004 ();
+extern "C" void Console_LogCallback_m2786791236 ();
+extern "C" void Console_Output_m2256428968 ();
+extern "C" void Console_RegisterCommand_m3502823492 ();
+extern "C" void Console_RegisterAttributes_m850296390 ();
+extern "C" void Console_PreviousCommand_m3281995114 ();
+extern "C" void Console_RecordCommand_m2988653448 ();
+extern "C" void Console_Output_m60067589 ();
+extern "C" void Console_Run_m663672359 ();
+extern "C" void Console_History_m950583804 ();
+extern "C" void Console_Complete_m36330947 ();
+extern "C" void U3CRegisterAttributesU3Ec__AnonStorey0__ctor_m1932064298 ();
+extern "C" void U3CRegisterAttributesU3Ec__AnonStorey0_U3CU3Em__0_m1973820893 ();
+extern "C" void RequestContext__ctor_m34089064 ();
+extern "C" void RequestContext_get_Request_m1321390185 ();
+extern "C" void RequestContext_get_Response_m4094499205 ();
+extern "C" void RouteAttribute__ctor_m284668859 ();
+extern "C" void Callback__ctor_m39569178 ();
+extern "C" void Callback_Invoke_m4153886412 ();
+extern "C" void Callback_BeginInvoke_m1044305757 ();
+extern "C" void Callback_EndInvoke_m2202959380 ();
+extern "C" void Server__ctor_m1546151554 ();
+extern "C" void Server_Awake_m3434257485 ();
+extern "C" void Server_RegisterRoutes_m1890779127 ();
+extern "C" void Server_FindFileType_m968151360 ();
+extern "C" void Server_WWWFileHandler_m1335889722 ();
+extern "C" void Server_FileHandler_m3142141125 ();
+extern "C" void Server_RegisterFileHandlers_m4081294066 ();
+extern "C" void Server_OnEnable_m1651695114 ();
+extern "C" void Server_OnDisable_m2296083613 ();
+extern "C" void Server_Update_m1691401697 ();
+extern "C" void Server_ListenerCallback_m774515892 ();
+extern "C" void Server_HandleRequest_m1964231163 ();
+extern "C" void Server_HandleRequests_m1412659028 ();
+extern "C" void Server__cctor_m4228286511 ();
+extern "C" void Server_U3CRegisterFileHandlersU3Em__0_m978890411 ();
+extern "C" void U3CHandleRequestsU3Ec__Iterator0__ctor_m517071840 ();
+extern "C" void U3CHandleRequestsU3Ec__Iterator0_MoveNext_m1318461940 ();
+extern "C" void U3CHandleRequestsU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1182154522 ();
+extern "C" void U3CHandleRequestsU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m2401132354 ();
+extern "C" void U3CHandleRequestsU3Ec__Iterator0_Dispose_m1792153443 ();
+extern "C" void U3CHandleRequestsU3Ec__Iterator0_Reset_m2938468533 ();
+extern "C" void U3CRegisterFileHandlersU3Ec__AnonStorey1__ctor_m2728630795 ();
+extern "C" void U3CRegisterFileHandlersU3Ec__AnonStorey1_U3CU3Em__0_m3050432582 ();
+extern "C" void U3CRegisterFileHandlersU3Ec__AnonStorey1_U3CU3Em__1_m2523917477 ();
+extern "C" void FileHandlerDelegate__ctor_m2517669016 ();
+extern "C" void FileHandlerDelegate_Invoke_m3289004837 ();
+extern "C" void FileHandlerDelegate_BeginInvoke_m544979642 ();
+extern "C" void FileHandlerDelegate_EndInvoke_m4153006218 ();
+extern "C" void GameObjectCommands_ListGameObjects_m2116427220 ();
+extern "C" void GameObjectCommands_PrintGameObject_m3484947886 ();
+extern "C" void GameObjectRoutes_ListGameObjects_m1695353300 ();
+extern "C" void CharacterGPSCompassController__ctor_m2082226249 ();
+extern "C" void CharacterGPSCompassController_Start_m1220389097 ();
+extern "C" void CharacterGPSCompassController_GpsLocationService_OnMapRedraw_m4128198896 ();
+extern "C" void CharacterGPSCompassController_Update_m2926394796 ();
+extern "C" void GoogleMapTile__ctor_m3006027912 ();
+extern "C" void GoogleMapTile_Start_m508170516 ();
+extern "C" void GoogleMapTile_Update_m1733301035 ();
+extern "C" void GoogleMapTile_RefreshMapTile_m3694952979 ();
+extern "C" void GoogleMapTile__RefreshMapTile_m3824231422 ();
+extern "C" void U3C_RefreshMapTileU3Ec__Iterator0__ctor_m2639893848 ();
+extern "C" void U3C_RefreshMapTileU3Ec__Iterator0_MoveNext_m352504860 ();
+extern "C" void U3C_RefreshMapTileU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1749454826 ();
+extern "C" void U3C_RefreshMapTileU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m4109238082 ();
+extern "C" void U3C_RefreshMapTileU3Ec__Iterator0_Dispose_m2127022555 ();
+extern "C" void U3C_RefreshMapTileU3Ec__Iterator0_Reset_m1461071421 ();
+extern "C" void GoogleMapUtils__ctor_m3308275453 ();
+extern "C" void GoogleMapUtils_LonToX_m3064781488 ();
+extern "C" void GoogleMapUtils_LatToY_m133918249 ();
+extern "C" void GoogleMapUtils_XToLon_m4171188002 ();
+extern "C" void GoogleMapUtils_YToLat_m1133913441 ();
+extern "C" void GoogleMapUtils_adjustLonByPixels_m3162849290 ();
+extern "C" void GoogleMapUtils_adjustLatByPixels_m1284315766 ();
+extern "C" void GoogleMapUtils_CalculateScaleX_m2238747447 ();
+extern "C" void GoogleMapUtils_CalculateScaleY_m891598168 ();
+extern "C" void GoogleMapUtils__cctor_m2700215808 ();
+extern "C" void MapEnvelope__ctor_m2901686965 ();
+extern "C" void MapEnvelope_Contains_m1067657687 ();
+extern "C" void MapLocation__ctor_m1686051268 ();
+extern "C" void GPSLocationService__ctor_m3001214621 ();
+extern "C" void GPSLocationService_add_OnMapRedraw_m430621010 ();
+extern "C" void GPSLocationService_remove_OnMapRedraw_m1821791541 ();
+extern "C" void GPSLocationService_Start_m569884541 ();
+extern "C" void GPSLocationService_StartSimulationService_m662622173 ();
+extern "C" void GPSLocationService_StartService_m1005415014 ();
+extern "C" void GPSLocationService_Update_m1827269440 ();
+extern "C" void GPSLocationService_MapRedrawn_m4169401484 ();
+extern "C" void GPSLocationService_CenterMap_m3302748164 ();
+extern "C" void GPSLocationService_OnDestroy_m2898592296 ();
+extern "C" void U3CStartServiceU3Ec__Iterator1__ctor_m3640559961 ();
+extern "C" void U3CStartServiceU3Ec__Iterator1_MoveNext_m421630639 ();
+extern "C" void U3CStartServiceU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2083603031 ();
+extern "C" void U3CStartServiceU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m4267567567 ();
+extern "C" void U3CStartServiceU3Ec__Iterator1_Dispose_m4254633198 ();
+extern "C" void U3CStartServiceU3Ec__Iterator1_Reset_m2840820984 ();
+extern "C" void U3CStartSimulationServiceU3Ec__Iterator0__ctor_m809550947 ();
+extern "C" void U3CStartSimulationServiceU3Ec__Iterator0_MoveNext_m2339073537 ();
+extern "C" void U3CStartSimulationServiceU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3442757709 ();
+extern "C" void U3CStartSimulationServiceU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m3221866965 ();
+extern "C" void U3CStartSimulationServiceU3Ec__Iterator0_Dispose_m2687129166 ();
+extern "C" void U3CStartSimulationServiceU3Ec__Iterator0_Reset_m4032192196 ();
+extern "C" void OnRedrawEvent__ctor_m3589857350 ();
+extern "C" void OnRedrawEvent_Invoke_m630492042 ();
+extern "C" void OnRedrawEvent_BeginInvoke_m1100137279 ();
+extern "C" void OnRedrawEvent_EndInvoke_m2892025156 ();
+extern "C" void ResponseExtension_WriteString_m3818395102 ();
+extern "C" void ResponseExtension_WriteBytes_m3582723141 ();
+extern "C" void ResponseExtension_WriteFile_m586347686 ();
+extern const Il2CppMethodPointer g_MethodPointers[11803] = 
 {
 	Locale_GetText_m1954433032,
 	Locale_GetText_m2553164138,
@@ -23079,122 +23099,6 @@ extern const Il2CppMethodPointer g_MethodPointers[11783] =
 	VerticalLayoutGroup_CalculateLayoutInputVertical_m3227111700,
 	VerticalLayoutGroup_SetLayoutHorizontal_m2935499508,
 	VerticalLayoutGroup_SetLayoutVertical_m1302409034,
-	CharacterGPSCompassController__ctor_m1020753230,
-	CharacterGPSCompassController_Start_m1272467338,
-	CharacterGPSCompassController_Update_m1820773219,
-	CommandAttribute__ctor_m4266761113,
-	Callback__ctor_m4263581158,
-	Callback_Invoke_m4144892090,
-	Callback_BeginInvoke_m3195904987,
-	Callback_EndInvoke_m2948853812,
-	CallbackSimple__ctor_m4099773160,
-	CallbackSimple_Invoke_m1258916178,
-	CallbackSimple_BeginInvoke_m41461633,
-	CallbackSimple_EndInvoke_m454483378,
-	CommandTree__ctor_m2178951376,
-	CommandTree_Add_m2094034878,
-	CommandTree__add_m325761766,
-	CommandTree_Complete_m2145451060,
-	CommandTree__complete_m2931263162,
-	CommandTree_Run_m2035404671,
-	CommandTree__run_m1353361691,
-	CommandTree_RunCommand_m1850729902,
-	CommandTree__cctor_m768018971,
-	Console__ctor_m3247319816,
-	Console_get_Instance_m1644869778,
-	Console_Update_m3443310003,
-	Console_Queue_m252380682,
-	Console_Run_m2105788273,
-	Console_Clear_m854697499,
-	Console_Help_m796809583,
-	Console_Complete_m1314309604,
-	Console_LogCommand_m2141071407,
-	Console_Log_m3707847004,
-	Console_LogCallback_m2786791236,
-	Console_Output_m2256428968,
-	Console_RegisterCommand_m3502823492,
-	Console_RegisterAttributes_m850296390,
-	Console_PreviousCommand_m3281995114,
-	Console_RecordCommand_m2988653448,
-	Console_Output_m60067589,
-	Console_Run_m663672359,
-	Console_History_m950583804,
-	Console_Complete_m36330947,
-	U3CRegisterAttributesU3Ec__AnonStorey0__ctor_m1932064298,
-	U3CRegisterAttributesU3Ec__AnonStorey0_U3CU3Em__0_m1973820893,
-	RequestContext__ctor_m34089064,
-	RequestContext_get_Request_m1321390185,
-	RequestContext_get_Response_m4094499205,
-	RouteAttribute__ctor_m284668859,
-	Callback__ctor_m39569178,
-	Callback_Invoke_m4153886412,
-	Callback_BeginInvoke_m1044305757,
-	Callback_EndInvoke_m2202959380,
-	Server__ctor_m1546151554,
-	Server_Awake_m3434257485,
-	Server_RegisterRoutes_m1890779127,
-	Server_FindFileType_m968151360,
-	Server_WWWFileHandler_m1335889722,
-	Server_FileHandler_m3142141125,
-	Server_RegisterFileHandlers_m4081294066,
-	Server_OnEnable_m1651695114,
-	Server_OnDisable_m2296083613,
-	Server_Update_m1691401697,
-	Server_ListenerCallback_m774515892,
-	Server_HandleRequest_m1964231163,
-	Server_HandleRequests_m1412659028,
-	Server__cctor_m4228286511,
-	Server_U3CRegisterFileHandlersU3Em__0_m978890411,
-	U3CHandleRequestsU3Ec__Iterator0__ctor_m517071840,
-	U3CHandleRequestsU3Ec__Iterator0_MoveNext_m1318461940,
-	U3CHandleRequestsU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1182154522,
-	U3CHandleRequestsU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m2401132354,
-	U3CHandleRequestsU3Ec__Iterator0_Dispose_m1792153443,
-	U3CHandleRequestsU3Ec__Iterator0_Reset_m2938468533,
-	U3CRegisterFileHandlersU3Ec__AnonStorey1__ctor_m2728630795,
-	U3CRegisterFileHandlersU3Ec__AnonStorey1_U3CU3Em__0_m3050432582,
-	U3CRegisterFileHandlersU3Ec__AnonStorey1_U3CU3Em__1_m2523917477,
-	FileHandlerDelegate__ctor_m2517669016,
-	FileHandlerDelegate_Invoke_m3289004837,
-	FileHandlerDelegate_BeginInvoke_m544979642,
-	FileHandlerDelegate_EndInvoke_m4153006218,
-	GameObjectCommands_ListGameObjects_m2116427220,
-	GameObjectCommands_PrintGameObject_m3484947886,
-	GameObjectRoutes_ListGameObjects_m1695353300,
-	GoogleMapTile__ctor_m3006027912,
-	GoogleMapTile_Start_m508170516,
-	GoogleMapTile_Update_m1733301035,
-	GoogleMapTile_RefreshMapTile_m3694952979,
-	GoogleMapTile__RefreshMapTile_m3824231422,
-	U3C_RefreshMapTileU3Ec__Iterator0__ctor_m2639893848,
-	U3C_RefreshMapTileU3Ec__Iterator0_MoveNext_m352504860,
-	U3C_RefreshMapTileU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1749454826,
-	U3C_RefreshMapTileU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m4109238082,
-	U3C_RefreshMapTileU3Ec__Iterator0_Dispose_m2127022555,
-	U3C_RefreshMapTileU3Ec__Iterator0_Reset_m1461071421,
-	GoogleMapUtils__ctor_m3308275453,
-	GoogleMapUtils_LonToX_m3064781488,
-	GoogleMapUtils_LatToY_m133918249,
-	GoogleMapUtils_XToLon_m4171188002,
-	GoogleMapUtils_YToLat_m1133913441,
-	GoogleMapUtils_adjustLonByPixels_m3162849290,
-	GoogleMapUtils_adjustLatByPixels_m1284315766,
-	GoogleMapUtils__cctor_m2700215808,
-	MapLocation__ctor_m2136483586,
-	GPSLocationService__ctor_m142404925,
-	GPSLocationService_Start_m2006042269,
-	GPSLocationService_StartService_m3503899654,
-	GPSLocationService_Update_m1975834144,
-	GPSLocationService_Dispose_m4233238980,
-	U3CStartServiceU3Ec__Iterator0__ctor_m1486237598,
-	U3CStartServiceU3Ec__Iterator0_MoveNext_m2696184654,
-	U3CStartServiceU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m854490674,
-	U3CStartServiceU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m3131165610,
-	U3CStartServiceU3Ec__Iterator0_Dispose_m118706131,
-	U3CStartServiceU3Ec__Iterator0_Reset_m3205768701,
-	ResponseExtension_WriteString_m3818395102,
-	ResponseExtension_WriteBytes_m3582723141,
-	ResponseExtension_WriteFile_m586347686,
 	AlphaButtonClickMask__ctor_m637836257,
 	AlphaButtonClickMask_Start_m233381265,
 	AlphaButtonClickMask_IsRaycastLocationValid_m964310473,
@@ -23585,4 +23489,140 @@ extern const Il2CppMethodPointer g_MethodPointers[11783] =
 	BallUserControl_Awake_m4216224384,
 	BallUserControl_Update_m1471660078,
 	BallUserControl_FixedUpdate_m1908019444,
+	CommandAttribute__ctor_m4266761113,
+	Callback__ctor_m4263581158,
+	Callback_Invoke_m4144892090,
+	Callback_BeginInvoke_m3195904987,
+	Callback_EndInvoke_m2948853812,
+	CallbackSimple__ctor_m4099773160,
+	CallbackSimple_Invoke_m1258916178,
+	CallbackSimple_BeginInvoke_m41461633,
+	CallbackSimple_EndInvoke_m454483378,
+	CommandTree__ctor_m2178951376,
+	CommandTree_Add_m2094034878,
+	CommandTree__add_m325761766,
+	CommandTree_Complete_m2145451060,
+	CommandTree__complete_m2931263162,
+	CommandTree_Run_m2035404671,
+	CommandTree__run_m1353361691,
+	CommandTree_RunCommand_m1850729902,
+	CommandTree__cctor_m768018971,
+	Console__ctor_m3247319816,
+	Console_get_Instance_m1644869778,
+	Console_Update_m3443310003,
+	Console_Queue_m252380682,
+	Console_Run_m2105788273,
+	Console_Clear_m854697499,
+	Console_Help_m796809583,
+	Console_Complete_m1314309604,
+	Console_LogCommand_m2141071407,
+	Console_Log_m3707847004,
+	Console_LogCallback_m2786791236,
+	Console_Output_m2256428968,
+	Console_RegisterCommand_m3502823492,
+	Console_RegisterAttributes_m850296390,
+	Console_PreviousCommand_m3281995114,
+	Console_RecordCommand_m2988653448,
+	Console_Output_m60067589,
+	Console_Run_m663672359,
+	Console_History_m950583804,
+	Console_Complete_m36330947,
+	U3CRegisterAttributesU3Ec__AnonStorey0__ctor_m1932064298,
+	U3CRegisterAttributesU3Ec__AnonStorey0_U3CU3Em__0_m1973820893,
+	RequestContext__ctor_m34089064,
+	RequestContext_get_Request_m1321390185,
+	RequestContext_get_Response_m4094499205,
+	RouteAttribute__ctor_m284668859,
+	Callback__ctor_m39569178,
+	Callback_Invoke_m4153886412,
+	Callback_BeginInvoke_m1044305757,
+	Callback_EndInvoke_m2202959380,
+	Server__ctor_m1546151554,
+	Server_Awake_m3434257485,
+	Server_RegisterRoutes_m1890779127,
+	Server_FindFileType_m968151360,
+	Server_WWWFileHandler_m1335889722,
+	Server_FileHandler_m3142141125,
+	Server_RegisterFileHandlers_m4081294066,
+	Server_OnEnable_m1651695114,
+	Server_OnDisable_m2296083613,
+	Server_Update_m1691401697,
+	Server_ListenerCallback_m774515892,
+	Server_HandleRequest_m1964231163,
+	Server_HandleRequests_m1412659028,
+	Server__cctor_m4228286511,
+	Server_U3CRegisterFileHandlersU3Em__0_m978890411,
+	U3CHandleRequestsU3Ec__Iterator0__ctor_m517071840,
+	U3CHandleRequestsU3Ec__Iterator0_MoveNext_m1318461940,
+	U3CHandleRequestsU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1182154522,
+	U3CHandleRequestsU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m2401132354,
+	U3CHandleRequestsU3Ec__Iterator0_Dispose_m1792153443,
+	U3CHandleRequestsU3Ec__Iterator0_Reset_m2938468533,
+	U3CRegisterFileHandlersU3Ec__AnonStorey1__ctor_m2728630795,
+	U3CRegisterFileHandlersU3Ec__AnonStorey1_U3CU3Em__0_m3050432582,
+	U3CRegisterFileHandlersU3Ec__AnonStorey1_U3CU3Em__1_m2523917477,
+	FileHandlerDelegate__ctor_m2517669016,
+	FileHandlerDelegate_Invoke_m3289004837,
+	FileHandlerDelegate_BeginInvoke_m544979642,
+	FileHandlerDelegate_EndInvoke_m4153006218,
+	GameObjectCommands_ListGameObjects_m2116427220,
+	GameObjectCommands_PrintGameObject_m3484947886,
+	GameObjectRoutes_ListGameObjects_m1695353300,
+	CharacterGPSCompassController__ctor_m2082226249,
+	CharacterGPSCompassController_Start_m1220389097,
+	CharacterGPSCompassController_GpsLocationService_OnMapRedraw_m4128198896,
+	CharacterGPSCompassController_Update_m2926394796,
+	GoogleMapTile__ctor_m3006027912,
+	GoogleMapTile_Start_m508170516,
+	GoogleMapTile_Update_m1733301035,
+	GoogleMapTile_RefreshMapTile_m3694952979,
+	GoogleMapTile__RefreshMapTile_m3824231422,
+	U3C_RefreshMapTileU3Ec__Iterator0__ctor_m2639893848,
+	U3C_RefreshMapTileU3Ec__Iterator0_MoveNext_m352504860,
+	U3C_RefreshMapTileU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1749454826,
+	U3C_RefreshMapTileU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m4109238082,
+	U3C_RefreshMapTileU3Ec__Iterator0_Dispose_m2127022555,
+	U3C_RefreshMapTileU3Ec__Iterator0_Reset_m1461071421,
+	GoogleMapUtils__ctor_m3308275453,
+	GoogleMapUtils_LonToX_m3064781488,
+	GoogleMapUtils_LatToY_m133918249,
+	GoogleMapUtils_XToLon_m4171188002,
+	GoogleMapUtils_YToLat_m1133913441,
+	GoogleMapUtils_adjustLonByPixels_m3162849290,
+	GoogleMapUtils_adjustLatByPixels_m1284315766,
+	GoogleMapUtils_CalculateScaleX_m2238747447,
+	GoogleMapUtils_CalculateScaleY_m891598168,
+	GoogleMapUtils__cctor_m2700215808,
+	MapEnvelope__ctor_m2901686965,
+	MapEnvelope_Contains_m1067657687,
+	MapLocation__ctor_m1686051268,
+	GPSLocationService__ctor_m3001214621,
+	GPSLocationService_add_OnMapRedraw_m430621010,
+	GPSLocationService_remove_OnMapRedraw_m1821791541,
+	GPSLocationService_Start_m569884541,
+	GPSLocationService_StartSimulationService_m662622173,
+	GPSLocationService_StartService_m1005415014,
+	GPSLocationService_Update_m1827269440,
+	GPSLocationService_MapRedrawn_m4169401484,
+	GPSLocationService_CenterMap_m3302748164,
+	GPSLocationService_OnDestroy_m2898592296,
+	U3CStartServiceU3Ec__Iterator1__ctor_m3640559961,
+	U3CStartServiceU3Ec__Iterator1_MoveNext_m421630639,
+	U3CStartServiceU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2083603031,
+	U3CStartServiceU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m4267567567,
+	U3CStartServiceU3Ec__Iterator1_Dispose_m4254633198,
+	U3CStartServiceU3Ec__Iterator1_Reset_m2840820984,
+	U3CStartSimulationServiceU3Ec__Iterator0__ctor_m809550947,
+	U3CStartSimulationServiceU3Ec__Iterator0_MoveNext_m2339073537,
+	U3CStartSimulationServiceU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3442757709,
+	U3CStartSimulationServiceU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m3221866965,
+	U3CStartSimulationServiceU3Ec__Iterator0_Dispose_m2687129166,
+	U3CStartSimulationServiceU3Ec__Iterator0_Reset_m4032192196,
+	OnRedrawEvent__ctor_m3589857350,
+	OnRedrawEvent_Invoke_m630492042,
+	OnRedrawEvent_BeginInvoke_m1100137279,
+	OnRedrawEvent_EndInvoke_m2892025156,
+	ResponseExtension_WriteString_m3818395102,
+	ResponseExtension_WriteBytes_m3582723141,
+	ResponseExtension_WriteFile_m586347686,
 };
