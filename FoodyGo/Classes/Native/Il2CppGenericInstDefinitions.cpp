@@ -349,6 +349,7 @@ extern const Il2CppType KeyValuePair_2_t1149500047_0_0_0;
 extern const Il2CppType RouteAttribute_t3177687375_0_0_0;
 extern const Il2CppType RequestContext_t2741781238_0_0_0;
 extern const Il2CppType KeyValuePair_2_t1701344717_0_0_0;
+extern const Il2CppType Monster_t2599835386_0_0_0;
 extern const Il2CppType IEnumerable_1_t4048664256_gp_0_0_0_0;
 extern const Il2CppType Array_InternalArray__IEnumerable_GetEnumerator_m801276902_gp_0_0_0_0;
 extern const Il2CppType Array_Sort_m2069139338_gp_0_0_0_0;
@@ -1395,6 +1396,8 @@ static const RuntimeType* GenInst_KeyValuePair_2_t1701344717_0_0_0_String_t_0_0_
 extern const Il2CppGenericInst GenInst_KeyValuePair_2_t1701344717_0_0_0_String_t_0_0_0 = { 2, GenInst_KeyValuePair_2_t1701344717_0_0_0_String_t_0_0_0_Types };
 static const RuntimeType* GenInst_KeyValuePair_2_t38854645_0_0_0_RuntimeObject_0_0_0_Types[] = { (&KeyValuePair_2_t38854645_0_0_0), (&RuntimeObject_0_0_0) };
 extern const Il2CppGenericInst GenInst_KeyValuePair_2_t38854645_0_0_0_RuntimeObject_0_0_0 = { 2, GenInst_KeyValuePair_2_t38854645_0_0_0_RuntimeObject_0_0_0_Types };
+static const RuntimeType* GenInst_Monster_t2599835386_0_0_0_Types[] = { (&Monster_t2599835386_0_0_0) };
+extern const Il2CppGenericInst GenInst_Monster_t2599835386_0_0_0 = { 1, GenInst_Monster_t2599835386_0_0_0_Types };
 static const RuntimeType* GenInst_IEnumerable_1_t4048664256_gp_0_0_0_0_Types[] = { (&IEnumerable_1_t4048664256_gp_0_0_0_0) };
 extern const Il2CppGenericInst GenInst_IEnumerable_1_t4048664256_gp_0_0_0_0 = { 1, GenInst_IEnumerable_1_t4048664256_gp_0_0_0_0_Types };
 static const RuntimeType* GenInst_Array_InternalArray__IEnumerable_GetEnumerator_m801276902_gp_0_0_0_0_Types[] = { (&Array_InternalArray__IEnumerable_GetEnumerator_m801276902_gp_0_0_0_0) };
@@ -1855,7 +1858,7 @@ static const RuntimeType* GenInst_KeyValuePair_2_t3716250094_0_0_0_RuntimeObject
 extern const Il2CppGenericInst GenInst_KeyValuePair_2_t3716250094_0_0_0_RuntimeObject_0_0_0 = { 2, GenInst_KeyValuePair_2_t3716250094_0_0_0_RuntimeObject_0_0_0_Types };
 static const RuntimeType* GenInst_KeyValuePair_2_t38854645_0_0_0_KeyValuePair_2_t38854645_0_0_0_Types[] = { (&KeyValuePair_2_t38854645_0_0_0), (&KeyValuePair_2_t38854645_0_0_0) };
 extern const Il2CppGenericInst GenInst_KeyValuePair_2_t38854645_0_0_0_KeyValuePair_2_t38854645_0_0_0 = { 2, GenInst_KeyValuePair_2_t38854645_0_0_0_KeyValuePair_2_t38854645_0_0_0_Types };
-extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[652] = 
+extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[653] = 
 {
 	&GenInst_RuntimeObject_0_0_0,
 	&GenInst_Int32_t2071877448_0_0_0,
@@ -2279,6 +2282,7 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[652] =
 	&GenInst_String_t_0_0_0_String_t_0_0_0_KeyValuePair_2_t1701344717_0_0_0,
 	&GenInst_KeyValuePair_2_t1701344717_0_0_0_String_t_0_0_0,
 	&GenInst_KeyValuePair_2_t38854645_0_0_0_RuntimeObject_0_0_0,
+	&GenInst_Monster_t2599835386_0_0_0,
 	&GenInst_IEnumerable_1_t4048664256_gp_0_0_0_0,
 	&GenInst_Array_InternalArray__IEnumerable_GetEnumerator_m801276902_gp_0_0_0_0,
 	&GenInst_Array_Sort_m2069139338_gp_0_0_0_0_Array_Sort_m2069139338_gp_0_0_0_0,

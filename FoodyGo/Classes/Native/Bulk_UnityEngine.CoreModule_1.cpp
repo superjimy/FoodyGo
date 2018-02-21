@@ -13648,6 +13648,16 @@ extern "C"  int32_t Random_RandomRangeInt_m3784536824 (RuntimeObject * __this /*
 	int32_t retVal = _il2cpp_icall_func(___min0, ___max1);
 	return retVal;
 }
+// System.Single UnityEngine.Random::get_value()
+extern "C"  float Random_get_value_m1620326925 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	typedef float (*Random_get_value_m1620326925_ftn) ();
+	static Random_get_value_m1620326925_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Random_get_value_m1620326925_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Random::get_value()");
+	float retVal = _il2cpp_icall_func();
+	return retVal;
+}
 // System.Void UnityEngine.RangeAttribute::.ctor(System.Single,System.Single)
 extern "C"  void RangeAttribute__ctor_m3213258921 (RangeAttribute_t3336560921 * __this, float ___min0, float ___max1, const RuntimeMethod* method)
 {

@@ -9375,8 +9375,6 @@ extern "C"  float LocationInfo_get_altitude_m2599938510 (LocationInfo_t136472514
 extern "C"  float LocationInfo_get_horizontalAccuracy_m1871012961 (LocationInfo_t1364725149 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Double UnityEngine.LocationInfo::get_timestamp()
 extern "C"  double LocationInfo_get_timestamp_m4089231343 (LocationInfo_t1364725149 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.LocationService::Start(System.Single,System.Single)
-extern "C"  void LocationService_Start_m4251439284 (LocationService_t1617852714 * __this, float ___desiredAccuracyInMeters0, float ___updateDistanceInMeters1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Logger::set_logHandler(UnityEngine.ILogHandler)
 extern "C"  void Logger_set_logHandler_m3938522457 (Logger_t3328995178 * __this, RuntimeObject* ___value0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Logger::set_logEnabled(System.Boolean)
@@ -17920,20 +17918,6 @@ extern "C"  void LocationService_Start_m4251439284 (LocationService_t1617852714 
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (LocationService_Start_m4251439284_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.LocationService::Start(System.Single,System.Single)");
 	_il2cpp_icall_func(__this, ___desiredAccuracyInMeters0, ___updateDistanceInMeters1);
-}
-// System.Void UnityEngine.LocationService::Start()
-extern "C"  void LocationService_Start_m169112914 (LocationService_t1617852714 * __this, const RuntimeMethod* method)
-{
-	float V_0 = 0.0f;
-	float V_1 = 0.0f;
-	{
-		V_0 = (10.0f);
-		V_1 = (10.0f);
-		float L_0 = V_1;
-		float L_1 = V_0;
-		LocationService_Start_m4251439284(__this, L_0, L_1, /*hidden argument*/NULL);
-		return;
-	}
 }
 // System.Void UnityEngine.LocationService::Stop()
 extern "C"  void LocationService_Stop_m3937698312 (LocationService_t1617852714 * __this, const RuntimeMethod* method)

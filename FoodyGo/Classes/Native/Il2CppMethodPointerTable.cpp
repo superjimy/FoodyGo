@@ -1507,6 +1507,7 @@ extern "C" void DateTime_op_GreaterThanOrEqual_m3818963848 ();
 extern "C" void DateTime_op_Inequality_m1607380213 ();
 extern "C" void DateTime_op_LessThan_m3944619870 ();
 extern "C" void DateTime_op_LessThanOrEqual_m2191641069 ();
+extern "C" void DateTime_op_Subtraction_m3246456251 ();
 extern "C" void DateTime_op_Subtraction_m813614715 ();
 extern "C" void DateTimeOffset__ctor_m428942261_AdjustorThunk ();
 extern "C" void DateTimeOffset__ctor_m2870721395_AdjustorThunk ();
@@ -8358,7 +8359,6 @@ extern "C" void LocationService_get_isEnabledByUser_m1494765916 ();
 extern "C" void LocationService_get_status_m1402083095 ();
 extern "C" void LocationService_get_lastData_m2804248216 ();
 extern "C" void LocationService_Start_m4251439284 ();
-extern "C" void LocationService_Start_m169112914 ();
 extern "C" void LocationService_Stop_m3937698312 ();
 extern "C" void Logger__ctor_m1903664092 ();
 extern "C" void Logger_get_logHandler_m3063408166 ();
@@ -8613,6 +8613,7 @@ extern "C" void Quaternion__cctor_m1775579709 ();
 extern "C" void Random_Range_m4291245934 ();
 extern "C" void Random_Range_m3327624272 ();
 extern "C" void Random_RandomRangeInt_m3784536824 ();
+extern "C" void Random_get_value_m1620326925 ();
 extern "C" void RangeAttribute__ctor_m3213258921 ();
 extern "C" void RangeInt_get_end_m480861812_AdjustorThunk ();
 extern "C" void Ray__ctor_m2480021746_AdjustorThunk ();
@@ -11767,6 +11768,10 @@ extern "C" void CharacterGPSCompassController__ctor_m2082226249 ();
 extern "C" void CharacterGPSCompassController_Start_m1220389097 ();
 extern "C" void CharacterGPSCompassController_GpsLocationService_OnMapRedraw_m4128198896 ();
 extern "C" void CharacterGPSCompassController_Update_m2926394796 ();
+extern "C" void MonsterController__ctor_m3505428822 ();
+extern "C" void MonsterController_Start_m2104195150 ();
+extern "C" void MonsterController_Update_m1297031761 ();
+extern "C" void Monster__ctor_m3901935446 ();
 extern "C" void GoogleMapTile__ctor_m3006027912 ();
 extern "C" void GoogleMapTile_Start_m508170516 ();
 extern "C" void GoogleMapTile_Update_m1733301035 ();
@@ -11791,6 +11796,10 @@ extern "C" void GoogleMapUtils__cctor_m2700215808 ();
 extern "C" void MapEnvelope__ctor_m2901686965 ();
 extern "C" void MapEnvelope_Contains_m1067657687 ();
 extern "C" void MapLocation__ctor_m1686051268 ();
+extern "C" void MathG__ctor_m3057876328 ();
+extern "C" void MathG_Distance_m1876630829 ();
+extern "C" void MathG_deg2rad_m474905606 ();
+extern "C" void MathG_Distance_m2985627277 ();
 extern "C" void GPSLocationService__ctor_m3001214621 ();
 extern "C" void GPSLocationService_add_OnMapRedraw_m430621010 ();
 extern "C" void GPSLocationService_remove_OnMapRedraw_m1821791541 ();
@@ -11817,10 +11826,29 @@ extern "C" void OnRedrawEvent__ctor_m3589857350 ();
 extern "C" void OnRedrawEvent_Invoke_m630492042 ();
 extern "C" void OnRedrawEvent_BeginInvoke_m1100137279 ();
 extern "C" void OnRedrawEvent_EndInvoke_m2892025156 ();
+extern "C" void MonsterService__ctor_m4224943928 ();
+extern "C" void MonsterService_Start_m1895856344 ();
+extern "C" void MonsterService_GpsLocationService_OnMapRedraw_m1987441537 ();
+extern "C" void MonsterService_CleanupMonsters_m1665326409 ();
+extern "C" void MonsterService_Update_m4145124445 ();
+extern "C" void MonsterService_CheckMonsters_m2829492309 ();
+extern "C" void MonsterService_CalculateFootstepRange_m266253516 ();
+extern "C" void MonsterService_ConvertToWorldSpace_m1945526572 ();
+extern "C" void MonsterService_SpawnMonster_m436499616 ();
+extern "C" void U3CCleanupMonstersU3Ec__Iterator0__ctor_m2366574223 ();
+extern "C" void U3CCleanupMonstersU3Ec__Iterator0_MoveNext_m2734020081 ();
+extern "C" void U3CCleanupMonstersU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m14881601 ();
+extern "C" void U3CCleanupMonstersU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m466809897 ();
+extern "C" void U3CCleanupMonstersU3Ec__Iterator0_Dispose_m133606704 ();
+extern "C" void U3CCleanupMonstersU3Ec__Iterator0_Reset_m3052118258 ();
+extern "C" void FootstepTracker__ctor_m704019383 ();
+extern "C" void FootstepTracker_Start_m661334483 ();
+extern "C" void FootstepTracker_Update_m1155423030 ();
+extern "C" void Epoch_get_Now_m3154018071 ();
 extern "C" void ResponseExtension_WriteString_m3818395102 ();
 extern "C" void ResponseExtension_WriteBytes_m3582723141 ();
 extern "C" void ResponseExtension_WriteFile_m586347686 ();
-extern const Il2CppMethodPointer g_MethodPointers[11803] = 
+extern const Il2CppMethodPointer g_MethodPointers[11831] = 
 {
 	Locale_GetText_m1954433032,
 	Locale_GetText_m2553164138,
@@ -13312,6 +13340,7 @@ extern const Il2CppMethodPointer g_MethodPointers[11803] =
 	DateTime_op_Inequality_m1607380213,
 	DateTime_op_LessThan_m3944619870,
 	DateTime_op_LessThanOrEqual_m2191641069,
+	DateTime_op_Subtraction_m3246456251,
 	DateTime_op_Subtraction_m813614715,
 	DateTimeOffset__ctor_m428942261_AdjustorThunk,
 	DateTimeOffset__ctor_m2870721395_AdjustorThunk,
@@ -20163,7 +20192,6 @@ extern const Il2CppMethodPointer g_MethodPointers[11803] =
 	LocationService_get_status_m1402083095,
 	LocationService_get_lastData_m2804248216,
 	LocationService_Start_m4251439284,
-	LocationService_Start_m169112914,
 	LocationService_Stop_m3937698312,
 	Logger__ctor_m1903664092,
 	Logger_get_logHandler_m3063408166,
@@ -20418,6 +20446,7 @@ extern const Il2CppMethodPointer g_MethodPointers[11803] =
 	Random_Range_m4291245934,
 	Random_Range_m3327624272,
 	Random_RandomRangeInt_m3784536824,
+	Random_get_value_m1620326925,
 	RangeAttribute__ctor_m3213258921,
 	RangeInt_get_end_m480861812_AdjustorThunk,
 	Ray__ctor_m2480021746_AdjustorThunk,
@@ -23572,6 +23601,10 @@ extern const Il2CppMethodPointer g_MethodPointers[11803] =
 	CharacterGPSCompassController_Start_m1220389097,
 	CharacterGPSCompassController_GpsLocationService_OnMapRedraw_m4128198896,
 	CharacterGPSCompassController_Update_m2926394796,
+	MonsterController__ctor_m3505428822,
+	MonsterController_Start_m2104195150,
+	MonsterController_Update_m1297031761,
+	Monster__ctor_m3901935446,
 	GoogleMapTile__ctor_m3006027912,
 	GoogleMapTile_Start_m508170516,
 	GoogleMapTile_Update_m1733301035,
@@ -23596,6 +23629,10 @@ extern const Il2CppMethodPointer g_MethodPointers[11803] =
 	MapEnvelope__ctor_m2901686965,
 	MapEnvelope_Contains_m1067657687,
 	MapLocation__ctor_m1686051268,
+	MathG__ctor_m3057876328,
+	MathG_Distance_m1876630829,
+	MathG_deg2rad_m474905606,
+	MathG_Distance_m2985627277,
 	GPSLocationService__ctor_m3001214621,
 	GPSLocationService_add_OnMapRedraw_m430621010,
 	GPSLocationService_remove_OnMapRedraw_m1821791541,
@@ -23622,6 +23659,25 @@ extern const Il2CppMethodPointer g_MethodPointers[11803] =
 	OnRedrawEvent_Invoke_m630492042,
 	OnRedrawEvent_BeginInvoke_m1100137279,
 	OnRedrawEvent_EndInvoke_m2892025156,
+	MonsterService__ctor_m4224943928,
+	MonsterService_Start_m1895856344,
+	MonsterService_GpsLocationService_OnMapRedraw_m1987441537,
+	MonsterService_CleanupMonsters_m1665326409,
+	MonsterService_Update_m4145124445,
+	MonsterService_CheckMonsters_m2829492309,
+	MonsterService_CalculateFootstepRange_m266253516,
+	MonsterService_ConvertToWorldSpace_m1945526572,
+	MonsterService_SpawnMonster_m436499616,
+	U3CCleanupMonstersU3Ec__Iterator0__ctor_m2366574223,
+	U3CCleanupMonstersU3Ec__Iterator0_MoveNext_m2734020081,
+	U3CCleanupMonstersU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m14881601,
+	U3CCleanupMonstersU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m466809897,
+	U3CCleanupMonstersU3Ec__Iterator0_Dispose_m133606704,
+	U3CCleanupMonstersU3Ec__Iterator0_Reset_m3052118258,
+	FootstepTracker__ctor_m704019383,
+	FootstepTracker_Start_m661334483,
+	FootstepTracker_Update_m1155423030,
+	Epoch_get_Now_m3154018071,
 	ResponseExtension_WriteString_m3818395102,
 	ResponseExtension_WriteBytes_m3582723141,
 	ResponseExtension_WriteFile_m586347686,

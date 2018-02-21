@@ -1289,6 +1289,7 @@ extern const uint32_t DateTime_op_GreaterThanOrEqual_m3818963848_MetadataUsageId
 extern const uint32_t DateTime_op_Inequality_m1607380213_MetadataUsageId;
 extern const uint32_t DateTime_op_LessThan_m3944619870_MetadataUsageId;
 extern const uint32_t DateTime_op_LessThanOrEqual_m2191641069_MetadataUsageId;
+extern const uint32_t DateTime_op_Subtraction_m3246456251_MetadataUsageId;
 extern const uint32_t DateTime_op_Subtraction_m813614715_MetadataUsageId;
 extern Il2CppCodeGenString* _stringLiteral2074326073;
 extern const uint32_t DateTimeOffset__ctor_m428942261_MetadataUsageId;
@@ -53027,6 +53028,30 @@ extern "C"  bool DateTime_op_LessThanOrEqual_m2191641069 (RuntimeObject * __this
 		IL2CPP_RUNTIME_CLASS_INIT(TimeSpan_t3430258949_il2cpp_TypeInfo_var);
 		bool L_2 = TimeSpan_op_LessThanOrEqual_m3258610889(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		return L_2;
+	}
+}
+// System.TimeSpan System.DateTime::op_Subtraction(System.DateTime,System.DateTime)
+extern "C"  TimeSpan_t3430258949  DateTime_op_Subtraction_m3246456251 (RuntimeObject * __this /* static, unused */, DateTime_t693205669  ___d10, DateTime_t693205669  ___d21, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DateTime_op_Subtraction_m3246456251_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	TimeSpan_t3430258949  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		TimeSpan_t3430258949  L_0 = (&___d10)->get_ticks_10();
+		TimeSpan_t3430258949  L_1 = (&___d21)->get_ticks_10();
+		IL2CPP_RUNTIME_CLASS_INIT(TimeSpan_t3430258949_il2cpp_TypeInfo_var);
+		TimeSpan_t3430258949  L_2 = TimeSpan_op_Subtraction_m4155695851(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		int64_t L_3 = TimeSpan_get_Ticks_m2285358246((&V_0), /*hidden argument*/NULL);
+		TimeSpan_t3430258949  L_4;
+		memset(&L_4, 0, sizeof(L_4));
+		TimeSpan__ctor_m96381766((&L_4), L_3, /*hidden argument*/NULL);
+		return L_4;
 	}
 }
 // System.DateTime System.DateTime::op_Subtraction(System.DateTime,System.TimeSpan)

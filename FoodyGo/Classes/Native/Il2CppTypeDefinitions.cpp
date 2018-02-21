@@ -199,6 +199,7 @@ extern const Il2CppType ParticleSystem_t3394631041_0_0_0;
 extern const Il2CppType GameObject_t1756533147_0_0_0;
 extern const Il2CppType MonoBehaviour_t1158329972_0_0_0;
 extern const Il2CppType Entry_t420114983_0_0_0;
+extern const Il2CppType Monster_t2599835386_0_0_0;
 extern const Il2CppType MonoType_t_0_0_0;
 extern const Il2CppType AxisTouchButton_t3842535002_0_0_0;
 extern const Il2CppType ByteU5BU5D_t3397334013_0_0_0;
@@ -636,6 +637,7 @@ extern const Il2CppGenericInst GenInst_KeyValuePair_2_t1701344717_0_0_0;
 extern const Il2CppGenericInst GenInst_String_t_0_0_0_String_t_0_0_0_KeyValuePair_2_t1701344717_0_0_0;
 extern const Il2CppGenericInst GenInst_KeyValuePair_2_t1701344717_0_0_0_String_t_0_0_0;
 extern const Il2CppGenericInst GenInst_KeyValuePair_2_t38854645_0_0_0_RuntimeObject_0_0_0;
+extern const Il2CppGenericInst GenInst_Monster_t2599835386_0_0_0;
 extern const Il2CppGenericInst GenInst_IEnumerable_1_t4048664256_gp_0_0_0_0;
 extern const Il2CppGenericInst GenInst_Array_InternalArray__IEnumerable_GetEnumerator_m801276902_gp_0_0_0_0;
 extern const Il2CppGenericInst GenInst_Array_Sort_m4168899348_gp_0_0_0_0;
@@ -9310,6 +9312,40 @@ extern const RuntimeType U3CCreateSelectIteratorU3Ec__Iterator10_2_t906669209_0_
 Il2CppGenericClass U3CCreateSelectIteratorU3Ec__Iterator10_2_t3047178395_GenericClass = { 1299, { &GenInst_KeyValuePair_2_t1701344717_0_0_0_String_t_0_0_0, NULL }, NULL };
 extern const RuntimeType U3CCreateSelectIteratorU3Ec__Iterator10_2_t3047178395_0_0_0 = { &U3CCreateSelectIteratorU3Ec__Iterator10_2_t3047178395_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
+Il2CppGenericClass List_1_t1968956518_GenericClass = { 175, { &GenInst_Monster_t2599835386_0_0_0, NULL }, NULL };
+extern const RuntimeType List_1_t1968956518_0_0_0 = { &List_1_t1968956518_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const RuntimeType List_1_t1968956518_0_0_6 = { &List_1_t1968956518_GenericClass, 6, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType Monster_t2599835386_0_0_0 = { (void*)2023, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Monster_t2599835386_1_0_0 = { (void*)2023, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
+Il2CppGenericClass IEnumerator_1_t75359213_GenericClass = { 25, { &GenInst_Monster_t2599835386_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t75359213_0_0_0 = { &IEnumerator_1_t75359213_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t3458587648_GenericClass = { 41, { &GenInst_Monster_t2599835386_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t3458587648_0_0_0 = { &InternalEnumerator_1_t3458587648_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t3140775987_GenericClass = { 48, { &GenInst_Monster_t2599835386_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t3140775987_0_0_0 = { &IList_1_t3140775987_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t3551910691_GenericClass = { 49, { &GenInst_Monster_t2599835386_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t3551910691_0_0_0 = { &ICollection_1_t3551910691_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t2891962431_GenericClass = { 29, { &GenInst_Monster_t2599835386_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t2891962431_0_0_0 = { &IEnumerable_1_t2891962431_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ReadOnlyCollection_1_t2785621078_GenericClass = { 178, { &GenInst_Monster_t2599835386_0_0_0, NULL }, NULL };
+extern const RuntimeType ReadOnlyCollection_1_t2785621078_0_0_0 = { &ReadOnlyCollection_1_t2785621078_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Predicate_1_t1042805501_GenericClass = { 897, { &GenInst_Monster_t2599835386_0_0_0, NULL }, NULL };
+extern const RuntimeType Predicate_1_t1042805501_0_0_0 = { &Predicate_1_t1042805501_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Enumerator_t1503686192_GenericClass = { 176, { &GenInst_Monster_t2599835386_0_0_0, NULL }, NULL };
+extern const RuntimeType Enumerator_t1503686192_0_0_0 = { &Enumerator_t1503686192_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Comparison_1_t3861574237_GenericClass = { 894, { &GenInst_Monster_t2599835386_0_0_0, NULL }, NULL };
+extern const RuntimeType Comparison_1_t3861574237_0_0_0 = { &Comparison_1_t3861574237_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
 extern const RuntimeType U3CModuleU3E_t3783534214_0_0_0 = { (void*)0, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType U3CModuleU3E_t3783534214_1_0_0 = { (void*)0, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
@@ -15359,6 +15395,7 @@ extern const RuntimeType Shader_t2430389951_0_0_6 = { (void*)1382, 6, IL2CPP_TYP
 extern const RuntimeType Texture_t2243626319_0_0_0 = { (void*)1388, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType Texture_t2243626319_1_0_0 = { (void*)1388, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 extern const RuntimeType Texture_t2243626319_0_0_1 = { (void*)1388, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Texture_t2243626319_0_0_6 = { (void*)1388, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 extern const RuntimeType SortingLayer_t221838959_0_0_0 = { (void*)1384, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 extern const RuntimeType SortingLayer_t221838959_1_0_0 = { (void*)1384, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
@@ -16751,6 +16788,7 @@ extern const RuntimeType Mode_t1081683921_0_0_32854 = { (void*)1838, 32854, IL2C
 
 extern const RuntimeType RawImage_t2749640213_0_0_0 = { (void*)1839, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType RawImage_t2749640213_1_0_0 = { (void*)1839, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType RawImage_t2749640213_0_0_1 = { (void*)1839, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 extern const RuntimeType RectangularVertexClipper_t3349113845_0_0_161 = { (void*)1870, 161, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType RectangularVertexClipper_t3349113845_0_0_0 = { (void*)1870, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
@@ -17401,43 +17439,65 @@ extern const RuntimeType U3CHandleRequestsU3Ec__Iterator0_t381024681_1_0_0 = { (
 extern const RuntimeType CharacterGPSCompassController_t355398859_0_0_0 = { (void*)2021, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType CharacterGPSCompassController_t355398859_1_0_0 = { (void*)2021, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType GPSLocationService_t157925672_0_0_6 = { (void*)2028, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GPSLocationService_t157925672_0_0_0 = { (void*)2028, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GPSLocationService_t157925672_1_0_0 = { (void*)2028, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType GPSLocationService_t157925672_0_0_3 = { (void*)2028, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GPSLocationService_t157925672_0_0_6 = { (void*)2031, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GPSLocationService_t157925672_0_0_0 = { (void*)2031, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GPSLocationService_t157925672_1_0_0 = { (void*)2031, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType GPSLocationService_t157925672_0_0_3 = { (void*)2031, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType MapLocation_t1597838523_0_0_0 = { (void*)2022, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType MapLocation_t1597838523_1_0_0 = { (void*)2022, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType MapLocation_t1597838523_0_0_6 = { (void*)2022, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType MonsterController_t982996358_0_0_0 = { (void*)2022, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType MonsterController_t982996358_1_0_0 = { (void*)2022, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType MapEnvelope_t4045462396_0_0_0 = { (void*)2023, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType MapEnvelope_t4045462396_1_0_0 = { (void*)2023, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType MapEnvelope_t4045462396_0_0_6 = { (void*)2023, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType MapLocation_t1597838523_0_0_6 = { (void*)2024, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType MapLocation_t1597838523_0_0_0 = { (void*)2024, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType MapLocation_t1597838523_1_0_0 = { (void*)2024, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType GoogleMapTile_t633385143_0_0_0 = { (void*)2024, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GoogleMapTile_t633385143_1_0_0 = { (void*)2024, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType GoogleMapTile_t633385143_0_0_3 = { (void*)2024, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType MapEnvelope_t4045462396_0_0_0 = { (void*)2025, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType MapEnvelope_t4045462396_1_0_0 = { (void*)2025, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType MapEnvelope_t4045462396_0_0_6 = { (void*)2025, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType MapType_t2840829088_0_0_6 = { (void*)2025, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType MapType_t2840829088_0_0_0 = { (void*)2025, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType MapType_t2840829088_1_0_0 = { (void*)2025, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType MapType_t2840829088_0_0_32854 = { (void*)2025, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType GoogleMapTile_t633385143_0_0_0 = { (void*)2026, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GoogleMapTile_t633385143_1_0_0 = { (void*)2026, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType GoogleMapTile_t633385143_0_0_3 = { (void*)2026, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType U3C_RefreshMapTileU3Ec__Iterator0_t4165355993_0_0_0 = { (void*)2026, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3C_RefreshMapTileU3Ec__Iterator0_t4165355993_1_0_0 = { (void*)2026, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType MapType_t2840829088_0_0_6 = { (void*)2027, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType MapType_t2840829088_0_0_0 = { (void*)2027, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType MapType_t2840829088_1_0_0 = { (void*)2027, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType MapType_t2840829088_0_0_32854 = { (void*)2027, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType GoogleMapUtils_t2257638562_0_0_0 = { (void*)2027, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GoogleMapUtils_t2257638562_1_0_0 = { (void*)2027, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3C_RefreshMapTileU3Ec__Iterator0_t4165355993_0_0_0 = { (void*)2028, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3C_RefreshMapTileU3Ec__Iterator0_t4165355993_1_0_0 = { (void*)2028, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType OnRedrawEvent_t1033359881_0_0_0 = { (void*)2029, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType OnRedrawEvent_t1033359881_0_0_1 = { (void*)2029, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType OnRedrawEvent_t1033359881_1_0_0 = { (void*)2029, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType GoogleMapUtils_t2257638562_0_0_0 = { (void*)2029, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GoogleMapUtils_t2257638562_1_0_0 = { (void*)2029, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CStartSimulationServiceU3Ec__Iterator0_t957775792_0_0_0 = { (void*)2030, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CStartSimulationServiceU3Ec__Iterator0_t957775792_1_0_0 = { (void*)2030, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType MathG_t1397383893_0_0_0 = { (void*)2030, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType MathG_t1397383893_1_0_0 = { (void*)2030, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CStartServiceU3Ec__Iterator1_t1844591556_0_0_0 = { (void*)2031, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CStartServiceU3Ec__Iterator1_t1844591556_1_0_0 = { (void*)2031, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType OnRedrawEvent_t1033359881_0_0_0 = { (void*)2032, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType OnRedrawEvent_t1033359881_0_0_1 = { (void*)2032, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType OnRedrawEvent_t1033359881_1_0_0 = { (void*)2032, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
+extern const RuntimeType U3CStartSimulationServiceU3Ec__Iterator0_t957775792_0_0_0 = { (void*)2033, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CStartSimulationServiceU3Ec__Iterator0_t957775792_1_0_0 = { (void*)2033, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
+extern const RuntimeType U3CStartServiceU3Ec__Iterator1_t1844591556_0_0_0 = { (void*)2034, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CStartServiceU3Ec__Iterator1_t1844591556_1_0_0 = { (void*)2034, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
+extern const RuntimeType MonsterService_t364432899_0_0_0 = { (void*)2035, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType MonsterService_t364432899_1_0_0 = { (void*)2035, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType MonsterService_t364432899_0_0_3 = { (void*)2035, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType MonsterService_t364432899_0_0_6 = { (void*)2035, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+
+extern const RuntimeType U3CCleanupMonstersU3Ec__Iterator0_t1399923046_0_0_0 = { (void*)2036, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CCleanupMonstersU3Ec__Iterator0_t1399923046_1_0_0 = { (void*)2036, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
+extern const RuntimeType MonsterU5BU5D_t3152714719_0_0_3 = { (void*)&Monster_t2599835386_0_0_0, 3, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
+
+extern const RuntimeType FootstepTracker_t2623363944_0_0_0 = { (void*)2037, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType FootstepTracker_t2623363944_1_0_0 = { (void*)2037, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
+extern const RuntimeType Epoch_t1174559313_0_0_0 = { (void*)2038, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Epoch_t1174559313_1_0_0 = { (void*)2038, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass IComparer_1_t1676750663_GenericClass = { 170, { &GenInst_DefaultComparer_t3074655092_gp_0_0_0_0, NULL }, NULL };
 extern const RuntimeType IComparer_1_t1676750663_0_0_0 = { &IComparer_1_t1676750663_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -17480,7 +17540,7 @@ extern const RuntimeType TypeTagU5BU5D_t582616213_0_0_0 = { (void*)&TypeTag_t141
 extern const RuntimeType RouteAttributeU5BU5D_t2616710294_0_0_0 = { (void*)&RouteAttribute_t3177687375_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
 extern const RuntimeType ITrackingHandlerU5BU5D_t194660197_0_0_0 = { (void*)&ITrackingHandler_t2759960940_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
-extern const RuntimeType* const  g_Il2CppTypeTable[9024] = 
+extern const RuntimeType* const  g_Il2CppTypeTable[9054] = 
 {
 	&IEnumerator_1_t164973122_0_0_0,
 	&RuntimeObject_0_0_0,
@@ -20124,6 +20184,17 @@ extern const RuntimeType* const  g_Il2CppTypeTable[9024] =
 	&Func_2_t2065790391_0_0_0,
 	&U3CCreateSelectIteratorU3Ec__Iterator10_2_t906669209_0_0_0,
 	&U3CCreateSelectIteratorU3Ec__Iterator10_2_t3047178395_0_0_0,
+	&List_1_t1968956518_0_0_0,
+	&Monster_t2599835386_0_0_0,
+	&IEnumerator_1_t75359213_0_0_0,
+	&InternalEnumerator_1_t3458587648_0_0_0,
+	&IList_1_t3140775987_0_0_0,
+	&ICollection_1_t3551910691_0_0_0,
+	&IEnumerable_1_t2891962431_0_0_0,
+	&ReadOnlyCollection_1_t2785621078_0_0_0,
+	&Predicate_1_t1042805501_0_0_0,
+	&Enumerator_t1503686192_0_0_0,
+	&Comparison_1_t3861574237_0_0_0,
 	&U3CModuleU3E_t3783534214_0_0_0,
 	&U3CModuleU3E_t3783534214_1_0_0,
 	&RuntimeObject_1_0_0,
@@ -26405,6 +26476,10 @@ extern const RuntimeType* const  g_Il2CppTypeTable[9024] =
 	&CharacterGPSCompassController_t355398859_0_0_0,
 	&CharacterGPSCompassController_t355398859_1_0_0,
 	&GPSLocationService_t157925672_0_0_6,
+	&MonsterController_t982996358_0_0_0,
+	&MonsterController_t982996358_1_0_0,
+	&MapLocation_t1597838523_0_0_6,
+	&Monster_t2599835386_1_0_0,
 	&MapLocation_t1597838523_0_0_0,
 	&MapLocation_t1597838523_1_0_0,
 	&MapEnvelope_t4045462396_0_0_0,
@@ -26412,7 +26487,6 @@ extern const RuntimeType* const  g_Il2CppTypeTable[9024] =
 	&GoogleMapTile_t633385143_0_0_0,
 	&GoogleMapTile_t633385143_1_0_0,
 	&MapType_t2840829088_0_0_6,
-	&MapLocation_t1597838523_0_0_6,
 	&MapType_t2840829088_0_0_0,
 	&MapType_t2840829088_1_0_0,
 	&MapType_t2840829088_0_0_32854,
@@ -26422,6 +26496,8 @@ extern const RuntimeType* const  g_Il2CppTypeTable[9024] =
 	&GoogleMapTile_t633385143_0_0_3,
 	&GoogleMapUtils_t2257638562_0_0_0,
 	&GoogleMapUtils_t2257638562_1_0_0,
+	&MathG_t1397383893_0_0_0,
+	&MathG_t1397383893_1_0_0,
 	&GPSLocationService_t157925672_0_0_0,
 	&GPSLocationService_t157925672_1_0_0,
 	&OnRedrawEvent_t1033359881_0_0_0,
@@ -26434,6 +26510,20 @@ extern const RuntimeType* const  g_Il2CppTypeTable[9024] =
 	&GPSLocationService_t157925672_0_0_3,
 	&U3CStartServiceU3Ec__Iterator1_t1844591556_0_0_0,
 	&U3CStartServiceU3Ec__Iterator1_t1844591556_1_0_0,
+	&MonsterService_t364432899_0_0_0,
+	&MonsterService_t364432899_1_0_0,
+	&List_1_t1968956518_0_0_6,
+	&U3CCleanupMonstersU3Ec__Iterator0_t1399923046_0_0_0,
+	&U3CCleanupMonstersU3Ec__Iterator0_t1399923046_1_0_0,
+	&MonsterU5BU5D_t3152714719_0_0_3,
+	&MonsterService_t364432899_0_0_3,
+	&FootstepTracker_t2623363944_0_0_0,
+	&FootstepTracker_t2623363944_1_0_0,
+	&MonsterService_t364432899_0_0_6,
+	&Texture_t2243626319_0_0_6,
+	&RawImage_t2749640213_0_0_1,
+	&Epoch_t1174559313_0_0_0,
+	&Epoch_t1174559313_1_0_0,
 	&IEnumerator_1_t1705424029_0_0_0,
 	&IEnumerator_1_t4085313661_0_0_0,
 	&IList_1_t260801773_0_0_0,

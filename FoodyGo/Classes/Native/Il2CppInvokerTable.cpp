@@ -21207,6 +21207,13 @@ void* RuntimeInvoker_Boolean_t3825574718_DateTime_t693205669_DateTime_t693205669
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
+void* RuntimeInvoker_TimeSpan_t3430258949_DateTime_t693205669_DateTime_t693205669 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef TimeSpan_t3430258949  (*Func)(void* obj, DateTime_t693205669  p1, DateTime_t693205669  p2, const RuntimeMethod* method);
+	TimeSpan_t3430258949  ret = ((Func)methodPointer)(obj, *((DateTime_t693205669 *)args[0]), *((DateTime_t693205669 *)args[1]), methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
 void* RuntimeInvoker_Void_t1841601450_DateTime_t693205669 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, DateTime_t693205669  p1, const RuntimeMethod* method);
@@ -25722,6 +25729,20 @@ void* RuntimeInvoker_Single_t2076509932_Single_t2076509932_Int32_t2071877448_Int
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
+void* RuntimeInvoker_Single_t2076509932_Single_t2076509932_Single_t2076509932_Single_t2076509932_Single_t2076509932 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef float (*Func)(void* obj, float p1, float p2, float p3, float p4, const RuntimeMethod* method);
+	float ret = ((Func)methodPointer)(obj, *((float*)args[0]), *((float*)args[1]), *((float*)args[2]), *((float*)args[3]), methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
+void* RuntimeInvoker_Vector3_t2243707580_Single_t2076509932_Single_t2076509932 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef Vector3_t2243707580  (*Func)(void* obj, float p1, float p2, const RuntimeMethod* method);
+	Vector3_t2243707580  ret = ((Func)methodPointer)(obj, *((float*)args[0]), *((float*)args[1]), methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
 void* RuntimeInvoker_Void_t1841601450_Int32_t2071877448_ObjectU26_t597476745 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, int32_t p1, RuntimeObject ** p2, const RuntimeMethod* method);
@@ -29061,7 +29082,7 @@ void* RuntimeInvoker_RuntimeObject_FloatTween_t2986189219 (Il2CppMethodPointer m
 	return ret;
 }
 
-extern const InvokerMethod g_Il2CppInvokerPointers[1708] = 
+extern const InvokerMethod g_Il2CppInvokerPointers[1711] = 
 {
 	RuntimeInvoker_Void_t1841601450,
 	RuntimeInvoker_Boolean_t3825574718_RuntimeObject,
@@ -29649,6 +29670,7 @@ extern const InvokerMethod g_Il2CppInvokerPointers[1708] =
 	RuntimeInvoker_Boolean_t3825574718_RuntimeObject_RuntimeObject_RuntimeObject_Int32_t2071877448_DateTimeU26_t3448131235_SByte_t454417549_BooleanU26_t3168250738_SByte_t454417549_ExceptionU26_t1467204777,
 	RuntimeInvoker_DateTime_t693205669_DateTime_t693205669_TimeSpan_t3430258949,
 	RuntimeInvoker_Boolean_t3825574718_DateTime_t693205669_DateTime_t693205669,
+	RuntimeInvoker_TimeSpan_t3430258949_DateTime_t693205669_DateTime_t693205669,
 	RuntimeInvoker_Void_t1841601450_DateTime_t693205669,
 	RuntimeInvoker_Void_t1841601450_DateTime_t693205669_TimeSpan_t3430258949,
 	RuntimeInvoker_Void_t1841601450_Int64_t909078037_TimeSpan_t3430258949,
@@ -30294,6 +30316,8 @@ extern const InvokerMethod g_Il2CppInvokerPointers[1708] =
 	RuntimeInvoker_RuntimeObject_KeyValuePair_2_t1701344717,
 	RuntimeInvoker_Single_t2076509932_Single_t2076509932_Int32_t2071877448_Int32_t2071877448,
 	RuntimeInvoker_Single_t2076509932_Single_t2076509932_Int32_t2071877448_Int32_t2071877448_Int32_t2071877448,
+	RuntimeInvoker_Single_t2076509932_Single_t2076509932_Single_t2076509932_Single_t2076509932_Single_t2076509932,
+	RuntimeInvoker_Vector3_t2243707580_Single_t2076509932_Single_t2076509932,
 	RuntimeInvoker_Void_t1841601450_Int32_t2071877448_ObjectU26_t597476745,
 	RuntimeInvoker_Void_t1841601450_ObjectU5BU5DU26_t3223402458_Int32_t2071877448,
 	RuntimeInvoker_Void_t1841601450_ObjectU5BU5DU26_t3223402458_Int32_t2071877448_Int32_t2071877448,

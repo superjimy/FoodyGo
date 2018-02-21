@@ -11,7 +11,7 @@ Summary:
     Generic Abstract Classes = 3
     Attributes = 177
   Total Field Removals = 722
-  Total Method Removals = 12739
+  Total Method Removals = 12738
 ---------------------------------------------------
 ---------------------------------------------------
 Assembly: Mono.Security
@@ -536,7 +536,7 @@ Summary:
     Generic Abstract Classes = 1
     Attributes = 87
   Total Field Removals = 467
-  Total Method Removals = 5101
+  Total Method Removals = 5100
   References Removed = 0
 ---------------------------------------------------
     <PrivateImplementationDetails>
@@ -1792,7 +1792,6 @@ Summary:
         GetDateTimeFormats(System.IFormatProvider)
         GetTypeCode()
         IsDaylightSavingTime()
-        op_Subtraction(System.DateTime,System.DateTime)
         Parse(System.String)
         ParseExact(System.String,System.String,System.IFormatProvider)
         Subtract(System.DateTime)
@@ -12285,6 +12284,7 @@ Summary:
     UnityEngine.LocationInfo
         get_verticalAccuracy()
     UnityEngine.LocationService
+        Start()
         Start(System.Single)
     UnityEngine.LOD
     UnityEngine.LODFadeMode
@@ -13131,7 +13131,6 @@ Summary:
         get_rotationUniform()
         get_seed()
         get_state()
-        get_value()
         GetRandomUnitCircle(UnityEngine.Vector2&)
         InitState(System.Int32)
         INTERNAL_get_insideUnitSphere(UnityEngine.Vector3&)
